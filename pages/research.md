@@ -31,7 +31,7 @@ My research interests lie in the general area of software engineering, with part
 
 *** -->
 ##### Open Research Projects:
-
+{% include projects/pj-search.html %}
 {% include projects/index.html %}
 
 

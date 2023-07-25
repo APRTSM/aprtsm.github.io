@@ -1,6 +1,6 @@
 ---
 name: Mining software repositories towards understanding code change properties to guide program repair
-tools: [fix patterns, patches, program repair, debugging, empirical software engineering]
+tags: [fix patterns, patches, program repair, debugging, empirical software engineering]
 description:  Building an automated program repair-adapted representation of code that will be leveraged to associate the change intention to various artifacts such as bug reports, test cases.
 
 ---
@@ -11,6 +11,7 @@ Patching is a common activity in software development. It is generally performed
 
 
 ![preview](/img/fixminer.png)
+1. [FixMiner: Mining Relevant Fix Patterns for Automated Program Repair](https://anilkoyuncu.github.io/papers/EMSE2020.pdf)
 
 
 <p class="text-center">

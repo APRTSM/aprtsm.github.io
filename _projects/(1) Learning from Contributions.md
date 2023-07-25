@@ -1,6 +1,6 @@
 ---
 name: Learning from Contributions
-tools: [open source, mining software repositories, empirical software engineering]
+tags: [open source, mining software repositories, empirical software engineering]
 description: Gather and analyze various communication data in software development towards learning contributions and relate them to the characteristics of the software products and processes. 
 
 ---

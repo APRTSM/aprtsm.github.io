@@ -1,6 +1,6 @@
 ---
 name: The impact of Covid-19 in open source software development
-tools: [open source, mining software repositories, empirical software engineering]
+tags: [open source, mining software repositories, empirical software engineering]
 description: Investigate the impact of Covid-19 in open source development ecosystems on GitHub. Starting with the construction of a large data set on the subject, we will be conducting experiments in order to understand what this crisis has generated and its impact on the habits, productivity of developers.
 
 
