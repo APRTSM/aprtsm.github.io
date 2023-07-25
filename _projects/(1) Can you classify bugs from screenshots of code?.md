@@ -1,6 +1,6 @@
 ---
 name: Can you classify bugs from screenshots of code?
-tags: [mining software repositories, computer vision, image processing]
+tags: [mining software repositories, computer vision, image processing, image analysis, data mining, program comprehension, machine learning]
 description: Gather and analyze various from Github towards learning contributions contributions of users and uses quality indicators in these contributions. 
 
 ---
