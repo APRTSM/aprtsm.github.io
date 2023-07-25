@@ -1,0 +1,6 @@
+_site/
+
+
+.index.html.swp
+.DS_Store
+.lock

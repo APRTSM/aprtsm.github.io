@@ -1,0 +1,156 @@
+- title: >-
+    Evaluating Representation Learning of Code Changes for Predicting Patch
+    Correctness in Program Repair
+  authors: >-
+    Haoye Tian, Kui Liu, Abdoul Kader Kaboré, <b>Anil Koyuncu</b>, Li Li,
+    Jacques Klein, Tegawendé F. Bissyandé.
+  revenue: >-
+    Proceedings of the 35th IEEE/ACM International Conference on Automated
+    Software Engineering, Virtual (Melbourne, Australia), September 21-25, 2020. 
+  alias: ASE
+  doi: 'https://doi.org/10.1145/3338906.3338935'
+  link: /papers/ASE2020.pdf
+  artifact: 'https://github.com/SerVal-DTF/DL4PatchCorrectness'
+  slide: 'https://www.slideshare.net/darkrsw/ifixr-bug-report-driven-program-repair'
+  key: C10
+  rate: 22.5% (93/414). 
+- title: >-
+    On the Efficiency of Test Suite based Program Repair: A Systematic
+    Assessment of 16 Automated Repair Systems for Java Programs
+  authors: >-
+    Kui Liu, Shangwen Wang, <b>Anil Koyuncu</b>, Kisub Kim, Tegawendé F.
+    Bissyandé, Dongsun Kim, Peng Wu, Jacques Klein, Xiaoguang Mao and Yves Le
+    Traon.
+  revenue: >-
+    Proceedings of the 42nd International Conference on Software Engineering
+    (ICSE 2020), Seoul, South Korea, May 23–29, 2020. 
+  alias: ICSE
+  doi: 'https://doi.org/10.1145/3377811.3380338'
+  link: /papers/ICSE2020.pdf
+  artifact: 'https://github.com/TruX-DTF/APR-Efficiency'
+  slide: 'https://www.slideshare.net/darkrsw/ifixr-bug-report-driven-program-repair'
+  key: C9
+  rate: 20.9% (129/617). 
+- title: 'iFixR: Bug Report driven Program Repair'
+  authors: >-
+    <b>Anil Koyuncu</b>, Kui Liu, Tegawendé F. Bissyandé, Dongsun Kim, Martin
+    Monperrus, Jacques Klein and Yves Le Traon.
+  revenue: >-
+    Proceedings of the 27th ACM Joint European Software Engineering Conference
+    and Symposium on the Foundations of Software Engineering (ESEC/FSE 2019),
+    Tallinn, Estonia, 26-30 August, 2019. 
+  alias: FSE
+  doi: 'https://doi.org/10.1145/3338906.3338935'
+  link: /papers/FSE2019.pdf
+  artifact: 'https://github.com/SerVal-DTF/iFixR'
+  slide: 'https://www.slideshare.net/darkrsw/ifixr-bug-report-driven-program-repair'
+  key: C8
+  rate: 24.4% (74/303). 
+- title: 'TBar: Revisiting Template-based Automated Repair'
+  authors: 'Kui Liu, <b>Anil Koyuncu</b>, Dongsun Kim, Tegawendé F. Bissyandé'
+  revenue: >-
+    Proceedings of the 28th International Symposium on Software Testing and
+    Analysis (ISSTA 2019), Beijing, China, July 15-19, 2019. 
+  alias: ISSTA
+  doi: 'https://doi.org/10.1145/3293882.3330577'
+  link: /papers/ISSTA2019.pdf
+  artifact: 'https://github.com/SerVal-DTF/TBar'
+  slide: >-
+    https://www.slideshare.net/darkrsw/tbar-revisiting-templatebased-automated-program-repair
+  key: C7
+  rate: 22.5% (32/142). 
+- title: Learning to Spot and Refactor Inconsistent Method Names
+  authors: >-
+    Kui Liu, Dongsun Kim, Tegawendé F. Bissyandé, Taeyoung Kim, Kisub Kim,
+    <b>Anil Koyuncu</b>, Suntae Kim and Yves Le Traon
+  revenue: >-
+    Proceedings of the 41st International Conference on Software Engineering,
+    Montréal, QC, Canada, May 25–31, 2019. 
+  alias: ICSE
+  doi: 'https://doi.org/10.1109/ICSE.2019.00019'
+  link: /papers/ICSE2019.pdf
+  artifact: 'https://github.com/SerVal-DTF/debug-method-name'
+  slide: >-
+    https://www.slideshare.net/darkrsw/learning-to-spot-and-refactor-inconsistent-method-names
+  key: C6
+  rate: 20.6% (109/529). 
+- title: >-
+    You Cannot Fix What You Cannot Find! An Investigation of Fault Localization
+    Bias in Benchmarking Automated Program Repair Systems
+  authors: >-
+    Kui Liu, <b>Anil Koyuncu</b>, Tegawendé F. Bissyandé, Dongsun Kim, Jacques
+    Klein and Yves Le Traon.
+  revenue: >-
+    Proceedings of the 12th IEEE International Conference on Software Testing,
+    Verification and Validation (ICST 2019), Xi’an, China, April 22-27, 2019. 
+  alias: ICST
+  doi: 'https://doi.org/10.1109/ICST.2019.00020'
+  link: /papers/ICST2019.pdf
+  artifact: 'https://github.com/SerVal-DTF/FL-VS-APR'
+  slide: >-
+    https://www.slideshare.net/darkrsw/you-cannot-fix-what-you-cannot-find-an-investigation-of-fault-localization-bias-in-benchmarking-automated-program-repair-systems
+  key: C5
+  rate: 28.1% (31/110). 
+- title: >-
+    AVATAR : Fixing Semantic Bugs with Fix Patterns of Static Analysis
+    Violations
+  authors: 'Kui Liu, <b>Anil Koyuncu</b>, Dongsun Kim and Tegawendé F. Bissyandé.'
+  revenue: >-
+    Proceedings of the 26th IEEE International Conference on Software Analysis,
+    Evolution and Reengineering (SANER 2019), Hangzhou, China, February 24-27,
+    2019. 
+  alias: SANER
+  doi: 'https://doi.org/10.1109/SANER.2019.8667970'
+  link: /papers/SANER2019.pdf
+  artifact: 'https://github.com/SerVal-DTF/AVATAR'
+  slide: >-
+    https://www.slideshare.net/darkrsw/avatar-fixing-semantic-bugs-with-fix-patterns-of-static-analysis-violations
+  key: C4
+  rate: 30.4% (45/148). 
+- title: 'LSRepair: Live Search of Fix Ingredients for Automated Program Repair'
+  authors: >-
+    Kui Liu, <b>Anil Koyuncu</b>, Kisub Kim, Dongsun Kim, and Tegawendé
+    Bissyande.
+  revenue: >-
+    Proceedings of the 25th Asia-Pacific Software Engineering Conference (APSEC
+    2018) ERA Track, Nara, Japan, December 4-7, 2018. 
+  alias: SANER
+  doi: 'https://doi.org/10.1109/APSEC.2018.00085'
+  link: /papers/APSEC2018.pdf
+  artifact: 'https://github.com/AutoProRepair/LSRepair'
+  slide: >-
+    https://www.slideshare.net/darkrsw/lsrepair-live-search-of-fix-ingredients-for-automated-program-repair
+  key: C3
+  rate: 38.9% (14/36). 
+  award: Best ERA Paper Award Winner.
+- title: A Closer Look at Real-World Patches
+  authors: >-
+    Dongsun Kim, Li Li, <b>Anil Koyuncu</b>, Tegawendé Bissyande and Yves Le
+    Traon.
+  revenue: >-
+    Proceedings of the 34th IEEE International Conference on Software
+    Maintenance and Evolution (ICSME 2018), Madrid, Spain, September 23 – 29,
+    2018. 
+  alias: ICSME
+  doi: 'https://doi.org/10.1109/ICSME.2018.00037'
+  link: /papers/ICSME2018.pdf
+  artifact: 'https://github.com/AutoProRepair/PatchParser'
+  slide: 'https://www.slideshare.net/darkrsw/a-closer-look-at-realworld-patches'
+  key: C2
+  rate: 21.3% (37/174). 
+- title: Impact of Tool Support in Patch Construction
+  authors: >-
+    <b>Anil Koyuncu</b>, Tegawendé F. Bissyandé, Dongsun Kim, Jacques Klein,
+    Martin Monperrus, and Yves Le Traon.
+  revenue: >-
+    Proceedings of the 26th International Symposium on Software Testing and
+    Analysis (ISSTA 2017), Santa Barbara, California, United States, July 10-14,
+    2017. 
+  alias: ISSTA
+  doi: 'https://doi.org/10.1145/3092703.3092713'
+  link: /papers/ISSTA2017.pdf
+  artifact: 'https://drive.google.com/drive/folders/0Bx24Oc9eyMqseUZEak51dzFmcVE'
+  slide: >-
+    https://www.slideshare.net/darkrsw/impact-of-tool-support-in-patch-construction
+  key: C1
+  rate: 26% (31/118). 

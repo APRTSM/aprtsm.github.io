@@ -1,0 +1,20 @@
+- title: >-
+    FlexiRepair: Transparent Program Repair with Generic Patches
+  authors: >-
+    <b>Anil Koyuncu</b>, Tegawendé F Bissyandé, Jacques Klein, Yves Le Traon.
+  revenue: >-
+    Interdisciplinary Centre for Security, Reliability and Trust (SNT), University of Luxembourg, Technical Report TR-SnT-2020-12, Decembre, 2020.
+  link: /papers/ASE2020.pdf
+  artifact: 'https://github.com/FlexiRepair'
+  key: O2
+
+- title: >-
+    D&C: A divide-and-conquer approach to ir-based bug localization
+  authors: >-
+    <b>Anil Koyuncu</b>, Tegawendé F Bissyandé, Dongsun Kim, Kui Liu, Jacques Klein, Martin Monperrus, Yves Le Traon.
+  revenue: >-
+    Interdisciplinary Centre for Security, Reliability and Trust (SNT), University of Luxembourg, Technical Report TR-SnT-2019-2, February, 2019.
+  link: /papers/ASE2020.pdf
+  artifact: 'https://github.com/SerVal-DTF/d-and-c'
+  key: O1
+

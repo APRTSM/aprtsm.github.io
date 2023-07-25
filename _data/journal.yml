@@ -1,0 +1,66 @@
+- title: 'Reliable Fix Patterns Inferred from Static Checkers for Automated Program Repair'
+  authors: >-
+    Kui Liu, Jingtang Zhang, Li Li, <b>Anil Koyuncu</b>, Dongsun Kim, Chunpeng Ge, Zhe Liu, Jacques Klein, Tegawendé F. Bissyandé.
+  revenue: 'Transactions on Software Engineering and Methodology, 2023. '
+  alias: TOSEM
+  doi: 'https://doi.acm.org/?doi=3579637'
+  link: 'https://doi.acm.org/?doi=3579637'
+  key: J7
+- title: 'The Best of Both Worlds: Combining Learned Embeddings with Engineered Features for Accurate Prediction of Correct Patches'
+  authors: >-
+    Haoye Tian, Kui Liu, Yinghua Li, Abdoul Kader Kaboré, <b>Anil Koyuncu</b>, Andrew Habib, Li Li, Junhao Wen, Jacques Klein, Tegawendé F Bissyandé.
+  revenue: 'Transactions on Software Engineering and Methodology, 2022. '
+  alias: TOSEM
+  doi: 'https://doi.acm.org/?doi=3576039'
+  link: 'https://arxiv.org/abs/2203.08912'
+  artifact: 'https://github.com/HaoyeTianCoder/Panther'
+  key: J6
+- title: 'IBIR: Bug Report driven Fault Injection'
+  authors: >-
+    Ahmed Khanfir, <b>Anil Koyuncu</b>, Mike Papadakis, Maxime Cordy, Tegawendé
+    F Bissyandé, Jacques Klein, Yves Le Traon.
+  revenue: 'Transactions on Software Engineering and Methodology, 2022. '
+  alias: TOSEM
+  doi: 'https://dl.acm.org/doi/10.1145/3542946'
+  link: 'https://arxiv.org/pdf/2012.06506'
+  artifact: 'https://github.com/serval-uni-lu/IBIR'
+  key: J5
+- title: DigBug—Pre/post-processing operator selection for accurate bug localization
+  authors: >-
+    Kisub Kim, Sankalp Ghatpande, Kui Liu, <b>Anil Koyuncu</b>, Dongsun Kim,
+    Tegawendé F Bissyandé, Jacques Klein, Yves Le Traon.
+  revenue: 'Journal of Systems and Software , Vol. 189. (2022). '
+  alias: JSS
+  doi: 'https://doi.org/10.1016/j.jss.2022.111300'
+  link: /papers/JSS2022.pdf
+  artifact: 'https://github.com/FalconLK/DigBug-Dig-into-Bug'
+  key: J4
+- title: ' Where were the repair ingredients for Defects4j bugs? '
+  authors: >-
+    Deheng Yang, Kui Liu, Dongsun Kim, <b>Anil Koyuncu</b>, Kisub Kim, Haoye
+    Tian, Yan Lei, Xiaoguang Mao, Jacques Klein, Tegawendé F Bissyandé.
+  revenue: 'Empirical Software Engineering , Vol. 26. (2021). '
+  alias: EMSE
+  doi: 'https://doi.org/10.1007/s10664-021-10003-7'
+  link: /papers/EMSE2021.pdf
+  artifact: 'https://github.com/DehengYang/repair-ingredients'
+  key: J3
+- title: A Critical Review on the Evaluation of Automated Program Repair Systems
+  authors: >-
+    Kui Liu, Li Li, <b>Anil Koyuncu</b>, Dongsun Kim, Zhe Liu, Jacques Klein,
+    Tegawendé F. Bissyandé.
+  revenue: 'Journal of Systems and Software , Vol. 171. (2021). '
+  alias: JSS
+  doi: 'https://doi.org/10.1016/j.jss.2020.110817'
+  link: /papers/JSS2021.pdf
+  key: J2
+- title: 'FixMiner: Mining Relevant Fix Patterns for Automated Program Repair'
+  authors: >-
+    <b>Anil Koyuncu</b>, Kui Liu, Tegawendé F. Bissyandé, Dongsun Kim, Jacques
+    Klein, Martin Monperrus and Yves Le Traon.
+  revenue: 'Empirical Software Engineering Journal, Vol. 25, pp. 1980-2024 (2020). '
+  alias: EMSE
+  doi: 'https://doi.org/10.1007/s10664-019-09780-z'
+  link: /papers/EMSE2020.pdf
+  artifact: 'https://github.com/TruX-DTF/fixminer_source'
+  key: J1

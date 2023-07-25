@@ -1,0 +1,19 @@
+---
+---
+
+@import "portfolYOU";
+
+[data-theme="dark"] 
+img {
+    filter: grayscale(50%) invert(90%) brightness(95%) hue-rotate(180deg);
+}
+
+
+myfont{
+    font-family: Optima, Candara, Calibri, Arial, sans-serif;
+}
+
+fa-orbilu {
+    content: url("/img/icons/icon_dblp_bw.svg");
+
+}

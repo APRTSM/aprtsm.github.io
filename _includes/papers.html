@@ -1,0 +1,114 @@
+{%- assign items = list_items | strip | newline_to_br | split: '<br />' -%}
+
+<div class="list-group my-3">
+
+  <a class="text-decoration-none no-underline" href="/publications#journal">
+      <span class="badge badge-pill text-primary border border-primary ml-1">Peer-Reviewed Journal Papers</span>
+  </a>
+
+  <a class="text-decoration-none no-underline" href="/publications#conference">
+      <span class="badge badge-pill text-primary border border-primary ml-1">Peer-Reviewed Conference Papers</span>
+  </a>
+
+  <a class="text-decoration-none no-underline" href="/publications#other">
+      <span class="badge badge-pill text-primary border border-primary ml-1">Other Papers</span>
+  </a>
+<h4 id="journal">Peer-Reviewed Journal Papers</h4>
+
+ {% for item in site.data.journal %}
+      <div class="paper-item" style="font-family: Optima, Candara, Calibri, Arial, sans-serif;">
+        <div class="content">
+         <li>
+          [{{ item.key }}] <strong>{{ item.alias }}</strong> <u>{{ item.title }}</u><br>
+          <small>{{ item.authors }} <br>
+          <!-- <h6 class="date">{{ item.from }} — {{ item.to }}</h6> -->
+          <em>{{ item.revenue }}</em>
+
+	      {%- if item.doi -%}
+          <a href="{{ item.doi }}" target="_blank">  <img src="/img/icons/doi.svg" style="height: 16px; margin: auto;"> </a>,
+          {%- endif -%}
+          {%- if item.link -%}
+          <a href="{{ item.link }}" target="_blank"> <img src="/img/icons/pdf.svg" style="height: 16px; margin: auto;"> </a>,
+          {%- endif -%}
+          {%- if item.artifact -%}
+          <a href="{{ item.artifact }}" target="_blank"> <img src="/img/icons/github-logo.svg" style="height: 16px; margin: auto;"> </a> 
+          {%- endif -%}
+            </small>
+        </li>
+
+        </div>
+      </div>
+{% endfor %}
+
+<hr>
+
+ <h4 id="conference">Peer-Reviewed Conference Papers</h4>
+
+ {% for item in site.data.conference %}
+   	  <div class="paper-item" style="font-family: Optima, Candara, Calibri, Arial, sans-serif;">
+        <div class="content">
+         <li>
+          [{{ item.key }}] <strong>{{ item.alias }}</strong> <u>{{ item.title }}</u><br>
+          <small>{{ item.authors }} <br>
+          <!-- <h6 class="date">{{ item.from }} — {{ item.to }}</h6> -->
+          <em>{{ item.revenue }}</em><br>
+          Acceptance rate: {{ item.rate }}  
+
+	      {%- if item.doi -%}
+          <a href="{{ item.doi }}" target="_blank">  <img src="/img/icons/doi.svg" style="height: 16px; margin: auto;"> </a>,
+          {%- endif -%}
+          {%- if item.link -%}
+          <a href="{{ item.link }}" target="_blank"> <img src="/img/icons/pdf.svg" style="height: 16px; margin: auto;"> </a>,
+          {%- endif -%}
+          {%- if item.artifact -%}
+          <a href="{{ item.artifact }}" target="_blank" > <img src="/img/icons/github-logo.svg" style="height: 16px; margin: auto;"> </a> 
+          {%- endif -%}
+          {%- if item.award -%}
+          <br> {{ item.award }} <a href=""><img src="/img/icons/award-icon.gif" style="height: 16px; margin: auto;">  </a>
+          {%- endif -%}
+            </small>
+        </li>
+
+        </div>
+      </div>
+    {% endfor %}
+
+<hr>
+
+     <h4 id="other">Other Papers</h4>
+
+     {% for item in site.data.paper %}
+   	  <div class="paper-item" style="font-family: Optima, Candara, Calibri, Arial, sans-serif;">
+        <div class="content">
+         <li>
+          [{{ item.key }}] <strong>{{ item.alias }}</strong> <u>{{ item.title }}</u><br>
+          <small>{{ item.authors }} <br>
+          <!-- <h6 class="date">{{ item.from }} — {{ item.to }}</h6> -->
+          <em>{{ item.revenue }}</em><br>
+          Resources: 
+
+	      {%- if item.doi -%}
+          <a href="{{ item.doi }}" target="_blank">  <img src="/img/icons/doi.svg" style="height: 16px; margin: auto;"> </a>,
+          {%- endif -%}
+          {%- if item.link -%}
+          <a href="{{ item.link }}" target="_blank"> <img src="/img/icons/pdf.svg" style="height: 16px; margin: auto;"> </a>,
+          {%- endif -%}
+          {%- if item.artifact -%}
+          <a href="{{ item.artifact }}" target="_blank" > <img src="/img/icons/github-logo.svg" style="height: 16px; margin: auto;"> </a> 
+          {%- endif -%}
+          {%- if item.award -%}
+          <br> {{ item.award }} <a href=""><img src="/img/icons/award-icon.gif" style="height: 16px; margin: auto;">  </a>
+          {%- endif -%}
+            </small>
+        </li>
+
+        </div>
+      </div>
+    {% endfor %}
+
+</div>
+
+
+
+
+ 

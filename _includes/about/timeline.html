@@ -1,0 +1,15 @@
+<div class="col mt-4">
+  <div class="timeline-body bg-themed" >
+    {% for item in site.data.timeline %}
+      <div class="timeline-item">
+        <div class="content">
+          <a href="{{ item.link }}" target="_blank">
+          <h5> <img src="{{ item.image }}" style="height: 36px; margin: auto;display: inline;" > {{ item.title }} </h5>
+          <h6 class="date">{{ item.from }}</h6>
+          <!-- <p>{{ item.description }}</p> -->
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
