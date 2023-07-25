@@ -7,7 +7,7 @@ weight: 1
 ---
 ## Research Topics
 
- **We are  looking for new team members** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **We are  looking for new team members** Students who wish to be involved in APR-TSM research can apply [(here)](https://docs.google.com/forms/d/e/1FAIpQLSeb78YDUNAZC32LCr-WQjvN8iDj7D73c9Oipo_7MypcFLWnlw/viewform?usp=sharing) **!**
 
 - [ ] Automated Program Repair
 - [ ] Automated Fault Localization
