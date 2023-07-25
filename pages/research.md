@@ -7,8 +7,6 @@ weight: 1
 ---
 ## Research Topics
 
- **We are  looking for new team members** Students who wish to be involved in APR-TSM research can apply [(here)](https://docs.google.com/forms/d/e/1FAIpQLSeb78YDUNAZC32LCr-WQjvN8iDj7D73c9Oipo_7MypcFLWnlw/viewform?usp=sharing) **!**
-
 - [ ] Automated Program Repair
 - [ ] Automated Fault Localization
 - [ ] Fix Pattern Mining
@@ -30,6 +28,9 @@ My research interests lie in the general area of software engineering, with part
 
 
 *** -->
+ **We are  looking for new team members**! <br>
+ Students who wish to be involved in APR-TSM research can apply <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb78YDUNAZC32LCr-WQjvN8iDj7D73c9Oipo_7MypcFLWnlw/viewform?usp=sharing" target="_blank"> here! </a>
+ 
 ##### Open Research Projects:
 {% include projects/pj-search.html %}
 {% include projects/index.html %}
