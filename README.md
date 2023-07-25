@@ -1,5 +1,5 @@
-# SU-CS48000-21SP.github.io
-[SU-CS48000-21SP.github.io](https://SU-CS48000-21SP.github.io)
+# aprtsm.github.io
+[aprtsm.github.io](https://aprtsm.github.io)
 
 # instruction to build
 ```
