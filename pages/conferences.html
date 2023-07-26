@@ -1,0 +1,258 @@
+---
+layout: default
+title: Conferences
+weight: 2
+permalink: /conferences/
+---
+
+
+<!-- <div id="chart" style="min-width: 310px; height: 400px; margin: 0 auto"> </div> -->
+<!-- <canvas id="deadlineChart" width="400" height="200"></canvas> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.0.2"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: right;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container {
+/*            display: flex;*/
+/*            flex-direction: column;*/
+            align-items: center;
+        }
+
+        .chart-container {
+            margin-bottom: 20px;
+        }
+
+ /*       canvas {
+            border: 1px solid #ccc;
+        }*/
+
+        table {
+            width: 60%;
+            border-collapse: collapse;
+              margin: 0 auto;
+
+        }
+
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .deadline-column {
+            text-align: center;
+        }
+
+        .remaining-days-column {
+            text-align: right;
+        }
+
+        .fa-calendar-alt, .fa-clock, .fa-calendar-day {
+            margin-right: 6px;
+        }
+
+        .chart-title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .url-column {
+            text-align: center;
+        }
+
+        .fa-external-link-alt {
+            margin-right: 6px;
+        }
+        .table-container {
+/*        display: flex;*/
+        justify-content: center;
+    }
+    </style>
+
+    <div class="container">
+        <div class="chart-container">
+            <h2 class="chart-title">Conference Deadlines</h2>
+            <canvas id="deadlineChart" ></canvas>
+        </div>
+        <div class="table-container">
+            <h2 class="chart-title">Conference Deadlines Table</h2>
+            <table id="conferenceTable">
+                <thead>
+                    <tr>
+                        <th>
+                            <i class="fas fa-calendar-alt"></i> Conference Name
+                        </th>
+                        <th class="deadline-column">
+                            <i class="fas fa-calendar-day"></i> Deadline
+                        </th>
+                        <th class="remaining-days-column">
+                            <i class="far fa-clock"></i> Remaining Days
+                        </th>
+                        <th class="url-column">
+                            <i class="fas fa-external-link-alt"></i> URL
+                        </th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+<script>
+        // Function to calculate remaining days
+        function calculateRemainingDays(deadlines) {
+            const today = new Date();
+            return deadlines.map(deadline => Math.ceil((new Date(deadline) - today) / (1000 * 60 * 60 * 24)));
+        }
+
+        // Fetch data.json and create the chart and table
+        fetch('/data.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                const conferenceNames = jsonData.map(conference => conference.name);
+                const conferenceDeadlines = jsonData.map(conference => conference.deadline);
+                const conferenceUrls = jsonData.map(conference => conference.url);
+
+
+                const remainingDays = calculateRemainingDays(conferenceDeadlines);
+                const minRemainingDays = Math.min(...remainingDays);
+
+                // Generate unique colors for the data points
+                const colors = ['#EC7D31', '#36BDCB', '#A8385D', '#007D34', '#F6768E', '#6A0DAD', '#34888C'];
+
+                // Sort conferences based on remaining days (ascending order)
+                const sortedData = jsonData.slice().sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
+                const sortedConferenceNames = sortedData.map(conference => conference.name);
+                const sortedConferenceDeadlines = sortedData.map(conference => conference.deadline);
+                const sortedRemainingDays = calculateRemainingDays(sortedConferenceDeadlines);
+                const sortedConferenceUrls = sortedData.map(conference => conference.url);
+
+
+                const ctx = document.getElementById('deadlineChart').getContext('2d');
+                const deadlineChart = new Chart(ctx, {
+                    type: 'scatter',
+                    data: {
+                        datasets: [{
+                            data: sortedData.map((conference, index) => ({
+                                x: new Date(conference.deadline),
+                                y: sortedRemainingDays[index], // Update the y value to represent the remaining days
+                                backgroundColor: colors[index % colors.length], // Assign unique color to the data point
+                                borderColor: colors[index % colors.length],
+                                pointRadius: 6,
+                                hitRadius: 15,
+                                label: conference.name, // Add the conference name as a label
+                                url: sortedConferenceUrls[index], // Store the URL for each data point
+                            })),
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            x: {
+                                type: 'time',
+                                time: {
+                                    unit: 'day',
+                                    displayFormats: {
+                                        day: 'MMM dd'
+                                    }
+                                },
+                                min: new Date(), // Set the minimum value of the x-axis to today's date
+                                title: {
+                                    display: true,
+                                    text: 'Conference Deadline',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                }
+                            },
+                            y: {
+                                beginAtZero: true,
+                                ticks: {
+                                    precision: 0
+                                },
+                                title: {
+                                    display: true,
+                                    text: 'Remaining Days',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: context => context.dataset.data[context.dataIndex].label
+                                }
+                            },
+                            annotation: {
+                                annotations: []
+                            }
+                        }
+                    }
+                });
+
+                // Populate the table with conference information
+                const tableBody = document.querySelector('#conferenceTable tbody');
+                for (let i = 0; i < sortedData.length; i++) {
+                    const row = document.createElement('tr');
+                    const conferenceNameCell = document.createElement('td');
+                    const deadlineCell = document.createElement('td');
+                    const remainingDaysCell = document.createElement('td');
+                    const urlCell = document.createElement('td');
+                    const link = document.createElement('a');
+                    link.href = sortedConferenceUrls[i];
+                    // link.href = new URL(sortedConferenceUrls[i], window.location.href).toString(); // Create an absolute URL
+                    link.target = '_blank';
+                    link.innerHTML = `<i class="fas fa-external-link-alt"></i>`;
+                    urlCell.appendChild(link);
+                    link.innerHTML = `<i class="fas fa-external-link-alt"></i>`;
+                    urlCell.appendChild(link);
+
+                    conferenceNameCell.textContent = sortedConferenceNames[i];
+                    deadlineCell.textContent = new Date(sortedConferenceDeadlines[i]).toLocaleDateString();
+                    remainingDaysCell.textContent = sortedRemainingDays[i];
+                    
+
+                    row.appendChild(conferenceNameCell);
+                    row.appendChild(deadlineCell);
+                    row.appendChild(remainingDaysCell);
+                    row.appendChild(urlCell);
+
+                    tableBody.appendChild(row);
+                }
+            })
+            .catch(error => console.error('Error fetching data:', error));
+
+
+
+</script>
+
+                <!-- // const colors = remainingDays.map(days => (days === minRemainingDays ? 'rgba(75, 192, 192, 0.8)' : 'rgba(192, 75, 75, 0.8)')); -->

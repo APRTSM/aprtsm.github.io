@@ -1,0 +1,72 @@
+---
+layout: null
+permalink: /data.json
+---
+[
+    {
+        "name": "MSR Technical Papers",
+        "deadline": "2023-11-14",
+        "url": "https://2024.msrconf.org/"
+    },    {
+        "name": "MSR Mining Challenge Proposals",
+        "deadline": "2023-08-15",
+        "url": "https://2024.msrconf.org/track/msr-2024-mining-challenge"
+    },
+    {
+        "name": "ISSTA Technical Papers (Round 1)",
+        "deadline": "2023-12-15",
+        "url": "https://2024.issta.org/track/issta-2024-papers"
+    },
+    {
+        "name": "ISSTA Technical Papers (Round 2)",
+        "deadline": "2024-04-12",
+        "url": "https://2024.issta.org/track/issta-2024-papers"
+    },
+    {
+        "name": "FSE Research Papers",
+        "deadline": "2023-09-21",
+        "url": "https://conf.researchr.org/track/fse-2024/fse-2024-research-papers"
+    },
+    {
+        "name": "SANER Research Papers",
+        "deadline": "2023-10-13",
+        "url": "https://conf.researchr.org/track/saner-2024/saner-2024-papers"
+    },
+    {
+        "name": "ICST Research Papers",
+        "deadline": "2023-10-18",
+        "url": "https://conf.researchr.org/track/icst-2024/icst-2024-papers"
+    },
+    {
+        "name": "OOPSLA Research Papers (R1)",
+        "deadline": "2023-10-20",
+        "url": "https://2024.splashcon.org/track/splash-2024-oopsla"
+    },
+    {
+        "name": "OOPSLA Research Papers (R2)",
+        "deadline": "2024-04-05",
+        "url": "https://2024.splashcon.org/track/splash-2024-oopsla"
+    },
+    {
+        "name": "ICSE SEET",
+        "deadline": "2023-10-12",
+        "url": "https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-education-and-training-track"
+    },
+    {
+        "name": "ICSE SEIP",
+        "deadline": "2023-10-06",
+        "url": "https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-in-practice"
+    },
+    {
+        "name": "ICSE SEIS",
+        "deadline": "2023-09-18",
+        "url": "https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-in-society"
+    },
+    {
+        "name": "ICSE NIER",
+        "deadline": "2023-09-14",
+        "url": "https://conf.researchr.org/track/icse-2024/icse-2024-new-ideas-and-emerging-results"
+    }
+
+
+]
