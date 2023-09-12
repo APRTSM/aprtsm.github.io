@@ -1,6 +1,6 @@
 ---
 name: Fine-Grained Fix Localization with new embeddings of code	
-tags: [bug report, bug localization, fault localization, bug characteristics, program analysis, information retrieval, machine learning, nlp]
+tags: [bug reports, bug localization, fault localization, bug characteristics, program analysis, information retrieval, machine learning, nlp]
 description: Develop novel approaches to precisely identify fix locations (i.e. which code to fix) when a program crash. 
 
 

@@ -1,6 +1,6 @@
 ---
 name: GitHub Repo Quality Analyzer
-tags: [mining software repositories, software metrics, program analysis, natural language processing, empirical software engineering]
+tags: [mining software repositories, software metrics, program analysis, natural language processing, empirical software engineering, repository analysis]
 description: Gather and analyze various from Github towards learning contributions contributions of users and uses quality indicators in these contributions. 
 
 ---

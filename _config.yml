@@ -20,14 +20,13 @@ nav_exclude:                                            # The following paths ar
   - pages/404.html
   - pages/index.md
   - pages/blog.html
-  - pages/contact.md
-  - pages/team.md    
+  - pages/contact.md 
   - documentation/partials/**                           # For Documentation Only
 
 
 ## Author Info ###
 author:
-  name              : John Doe
+  website              : https://anilkoyuncu.github.io
 
   # behance           : your_username
 # dribbble          : your_username

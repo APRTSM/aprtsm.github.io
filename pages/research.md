@@ -3,6 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 weight: 1
+project_tags: [bug reports, bug localization, fault localization, bug characteristics, program analysis, program comprehension, mining software repositories, software metrics, fix patterns, patches, program repair, debugging, fix ingredients, code change actions, donor code, patch generation, code representations, patch assessment, bug classification, repository analysis, vulnerability repair, bug detection]
 
 ---
 ## Research Topics
@@ -28,10 +29,29 @@ My research interests lie in the general area of software engineering, with part
 
 
 *** -->
- **We are  looking for new team members**! <br>
+
+##### Prospective Students:
+
+<div class="alert alert-primary">
+ <strong>We are  looking for new team members! </strong><br>
+
+</div>
+<div class="alert alert-info text-left">
+	 <strong>Keywords: </strong><br>
+	<p class="card-text">
+		{%- for tag in page.project_tags -%}
+		<span class="badge badge-pill text-primary border border-primary ml-1">{{ tag }}</span>
+		{%- endfor -%}
+	</p>
+</div>
+<div class="alert alert-danger text-left">
+
  Students who wish to be involved in APR-TSM research can apply <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb78YDUNAZC32LCr-WQjvN8iDj7D73c9Oipo_7MypcFLWnlw/viewform?usp=sharing" target="_blank"> here! </a>
+
+</div>
+
  
-##### Open Research Projects:
+##### Research Projects:
 {% include projects/pj-search.html %}
 {% include projects/index.html %}
 
