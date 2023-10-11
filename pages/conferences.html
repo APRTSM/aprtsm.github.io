@@ -131,9 +131,12 @@ permalink: /conferences/
         fetch('/data.json')
             .then(response => response.json())
             .then(jsonData => {
-                const conferenceNames = jsonData.map(conference => conference.name);
-                const conferenceDeadlines = jsonData.map(conference => conference.deadline);
-                const conferenceUrls = jsonData.map(conference => conference.url);
+                const currentDate = new Date();
+                const upcomingConferences = jsonData.filter(conference => new Date(conference.deadline) >= currentDate);
+
+                const conferenceNames = upcomingConferences.map(conference => conference.name);
+                const conferenceDeadlines = upcomingConferences.map(conference => conference.deadline);
+                const conferenceUrls = upcomingConferences.map(conference => conference.url);
 
 
                 const remainingDays = calculateRemainingDays(conferenceDeadlines);
@@ -143,7 +146,7 @@ permalink: /conferences/
                 const colors = ['#EC7D31', '#36BDCB', '#A8385D', '#007D34', '#F6768E', '#6A0DAD', '#34888C'];
 
                 // Sort conferences based on remaining days (ascending order)
-                const sortedData = jsonData.slice().sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
+                const sortedData = upcomingConferences.slice().sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
                 const sortedConferenceNames = sortedData.map(conference => conference.name);
                 const sortedConferenceDeadlines = sortedData.map(conference => conference.deadline);
                 const sortedRemainingDays = calculateRemainingDays(sortedConferenceDeadlines);
