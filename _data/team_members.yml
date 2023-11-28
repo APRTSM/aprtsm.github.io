@@ -12,6 +12,13 @@
   # email: exampleemail@gmail.com
   # website: https://website.com
 
+  - name: Mithat Emre Gürbüz
+    info: Undergraduate Student, started Sept 2020
+    github: https://github.com/Fancoy
+    photo: user-solid.svg
+    # email: exampleemail@gmail.com
+    # website: https://website.com
+
 - name: "This could be you !"
   photo: you.png
   info: See <a href="/research">openings</a> for more info
