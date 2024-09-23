@@ -21,7 +21,7 @@ description: Reading List
 - [ ] @huangSurveyAutomatedProgram2023 [A Survey on Automated Program Repair Techniques](http://arxiv.org/abs/2303.18184)
 
 ##### Bug Localization 
-
+- [ ] @wangSystematicMappingStudy2023 [A systematic mapping study of bug reproduction and localization](https://www.sciencedirect.com/science/article/pii/S0950584923001933)
 - [ ] @zamfirovLiteratureReviewDifferent2022 [A literature review on different types of empirically evaluated bug localization approaches](http://arxiv.org/abs/2212.11774)	
 - [ ] @shiComparingLearningRank2018 [Comparing learning to rank techniques in hybrid bug localization](https://www.sciencedirect.com/science/article/pii/S1568494617306622)
 - [ ] @zhangLiteratureReviewResearch2016 [A Literature Review of Research in Bug Resolution: Tasks, Challenges and Future Directions](https://doi.org/10.1093/comjnl/bxv114)
