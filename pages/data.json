@@ -76,6 +76,11 @@ permalink: /data.json
         "name": "ASE NIER Research Track",
         "deadline": "2025-07-12",
         "url": "https://conf.researchr.org/track/ase-2025/ase-2025-nier-track"
+    },    
+    {
+        "name": "ICSE Journal First",
+        "deadline": "2025-10-20",
+        "url": "https://conf.researchr.org/track/icse-2026/icse-2026-journal-first-papers"
     }
 
 
