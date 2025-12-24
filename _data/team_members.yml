@@ -1,17 +1,109 @@
-- name: Elçin Duman
-  info: Master Student, started Sept 2023
-  github: https://github.com/elcinduman
+# Current Students (Bilkent University)
+
+- name: Hesam Matinpouya
+  role: PhD Student
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Repo Embeddings", "Semantic Code Search", "Software Repositories"]
+  github: hesam-m
+  scholar: v9_S_IAAAAAJ
+  linkedin: hesam-matinpouya
   photo: user-solid.svg
-  # email: exampleemail@gmail.com
-  # website: https://website.com
+  
+- name: Christian Ouedraogo
+  role: PhD Student
+  duration: 2024-Present
+  university: "University of Luxembourg"
+  keywords: ["Unit Test Generation", "Cognitive Complexity", "Readability Metrics"]
+  github: wendkuuni
+  scholar: 6DMJ2dQAAAAJ
+  linkedin: wendkuuni-ouedraogo
+  photo: user-solid.svg
+
+- name: Ali Cevat Erçal
+  role: Master Student
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Community Bugs", "Bug Reproduction", "Issue Tracking"]
+  photo: user-solid.svg
+
+- name: Mayasah Lami
+  role: Master Student
+  duration: 2024-Present
+  university: "Bilkent University"
+  keywords: ["Snapshot Testing", "Vulnerability Generation", "Fault Localization"]
+  github: mayasahlami
+  scholar: 6DMJ2dQAAAAJ
+  photo: user-solid.svg
 
 - name: Sahand Moslemi
-  info: Master Student, started Sept 2023
-  github: https://github.com/SahandMoslemi
+  role: Master Student
+  duration: 2024-Present
+  university: "Bilkent University"
+  keywords: ["Patch Verification", "Vulnerability Generation", "Adversarial Attacks"]
   photo: user-solid.svg
-  # email: exampleemail@gmail.com
-  # website: https://website.com
 
-- name: "This could be you !"
-  photo: you.png
-  info: See <a href="/research">openings</a> for more info
+- name: Alp Seçkin Kargı
+  role: Undergraduate
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Supply Chain Security", "Vulnerability Detection"]
+  photo: user-solid.svg
+
+# Group: Enviroments for GitHub Projects
+- name: Emir Tomrukçu
+  role: Undergraduate
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Dockerization", "CI/CD Automation", "Build-Test Environments"]
+  photo: user-solid.svg
+- name: Akif Şahin
+  role: Undergraduate
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Dockerization", "CI/CD Automation", "Build-Test Environments"]
+  photo: user-solid.svg
+- name: Kuzey Ardıç
+  role: Undergraduate
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Dockerization", "CI/CD Automation", "Build-Test Environments"]
+  photo: user-solid.svg
+- name: Elif Ece Can
+  role: Undergraduate
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Dockerization", "CI/CD Automation", "Build-Test Environments"]
+  photo: user-solid.svg
+
+# Group: Reasoning Agents
+- name: Amir Hossein Ahani
+  role: Undergraduate
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Agentic AI", "Artifact Evaluation", "Reasoning Optimization"]
+  photo: user-solid.svg
+- name: Hakan Karakoç
+  role: Undergraduate
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Agentic AI", "Artifact Evaluation", "Reasoning Optimization"]
+  photo: user-solid.svg
+- name: Türker Köken
+  role: Undergraduate
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Agentic AI", "Artifact Evaluation", "Reasoning Optimization"]
+  photo: user-solid.svg
+- name: Ahmed Haikal
+  role: Undergraduate
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Agentic AI", "Artifact Evaluation", "Reasoning Optimization"]
+  photo: user-solid.svg
+- name: Hakan Yavuz
+  role: Undergraduate
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Agentic AI", "Artifact Evaluation", "Reasoning Optimization"]
+  photo: user-solid.svg

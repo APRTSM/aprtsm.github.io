@@ -1,25 +1,28 @@
-<div class="row justify-content-center align-items-center p-4">
-  <div class="col-lg-4 col-md-6 text-center mt-4">
-    <!-- <p class="text-muted wow animated slideInUp" data-wow-delay=".15s"> -->
- <!--    <p class="text-muted">
-      <i class="fa fa-thin"> Automated Program Repair</i>
-      <i class="fa fa-thin"> & </i>
-      <i class="fa fa-thin "> Tools for Software Maintenance</i>
-    </p>
- -->
-    <!-- Fine Circle Responsive Image -->
-    <div id="container" class="my-2">
-      <!-- <div id="dummy"></div> -->
-      <!-- <div id="element"> -->
-        <img src="/img/wordcloud2.svg" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
-        <i class="fa-solid fa-screwdriver-wrench fa-2xl"></i>
-      
-
+<div class="jumbotron text-center hero-animated-bg" style="margin-bottom: 0; padding: 1rem;">
+  <div class="container glass-container" style="padding: 1.5rem 2rem; border-radius: 20px;">
+    <div class="row align-items-center">
+      <div class="col-lg-7 text-lg-left text-center">
+        <p class="lead mb-3" style="font-weight: 400; color: #4b5563; line-height: 1.5; font-size: 1.15rem;">{{
+          site.description }}</p>
+        <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 mt-3">
+          <a class="btn btn-primary px-4 mr-2" href="{{ '/research/' | relative_url }}" role="button">
+            View Research
+          </a>
+          <a class="btn btn-outline-secondary px-4" href="{{ '/team/' | relative_url }}" role="button">
+            Meet the Team
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-5 mt-4 mt-lg-0">
+        <div id="wordcloud-container"
+          style="width: 100%; height: auto; min-height: 240px; max-height: 240px; display: flex; align-items: center; justify-content: center;">
+          <a href="{{ '/publications/' | relative_url }}" title="View our publications">
+            <img src="{{ '/assets/img/wordcloud.svg' | relative_url }}" alt="Research Word Cloud" class="img-fluid"
+              style="width: 100%; height: auto; transition: transform 0.3s ease;"
+              onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+          </a>
+        </div>
+      </div>
     </div>
-
-    <p class="text-muted">
-      <i class=""> {{ site.description }} </i>
-    </p>
-
   </div>
 </div>

@@ -3,28 +3,64 @@ layout: page
 permalink: /
 ---
 
-
-
-<!-- ###### **Automated Program Repair and Tools for Software Maintenance Research Group**  -->
-
-<!-- <img src="/img/icons/location-dot-solid.svg" style="height: 16px; margin: 0;display: inline;" >
-<a href="https://cs.sabanciuniv.edu/en" target="_blank">CSE Program</a>, <a href="https://www.sabanciuniv.edu/en/" target="_blank">Sabanci University</a>  
-<img src="/img/icons/envelope-solid.svg" width="16px" style="height: 16px; margin: 0;display: inline;"> anil.koyuncu at sabanciuniv.edu
-
-***
-{% include social.html %}
-***
-
-#### Research Interests:
-* Automated Program Repair
-* Automated Fault Localization
-* Fix Pattern Mining
-* Mining Software Repositories
-* Machine Learning and Natural Language Processing for Software Engineering
-* Empirical Software Engineering.
-
-*** -->
-
-
 {% include landing.html %}
+
+<div class="container mt-3">
+  <div class="row text-center mb-5">
+    <div class="col">
+      <h2 style="font-weight: 700;">Research Interests</h2>
+      <p class="text-muted">Our group focuses on advancing software quality through automation and intelligence.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm hover-effect-sm">
+        <div class="card-body text-center p-4">
+            <i class="fas fa-wrench fa-3x text-primary mb-3"></i>
+            <h5 class="card-title" style="font-weight: 600;">Automated Program Repair</h5>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm hover-effect-sm">
+        <div class="card-body text-center p-4">
+            <i class="fas fa-search-location fa-3x text-primary mb-3"></i>
+            <h5 class="card-title" style="font-weight: 600;">Automated Fault Localization</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm hover-effect-sm">
+         <div class="card-body text-center p-4">
+            <i class="fas fa-project-diagram fa-3x text-primary mb-3"></i>
+            <h5 class="card-title" style="font-weight: 600;">Fix Pattern Mining</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm hover-effect-sm">
+        <div class="card-body text-center p-4">
+            <i class="fas fa-database fa-3x text-primary mb-3"></i>
+            <h5 class="card-title" style="font-weight: 600;">Mining Software Repositories</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm hover-effect-sm">
+        <div class="card-body text-center p-4">
+            <i class="fas fa-robot fa-3x text-primary mb-3"></i>
+            <h5 class="card-title" style="font-weight: 600;">AI for SE</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm hover-effect-sm">
+        <div class="card-body text-center p-4">
+            <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+            <h5 class="card-title" style="font-weight: 600;">Empirical Software Engineering</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 

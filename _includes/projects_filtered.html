@@ -1,0 +1,179 @@
+<div class="row">
+    <div class="col-md-12 mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2 class="font-weight-bold mb-0" style="color: #0f172a;">Research Projects</h2>
+        </div>
+
+        <label for="projectSearch" class="font-weight-bold text-muted">Filter Projects</label>
+        <div class="input-group shadow-sm mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text bg-white border-right-0"><i class="fas fa-search text-muted"></i></span>
+            </div>
+            <input type="text" class="form-control border-left-0" id="projectSearch"
+                placeholder="Search projects by title, team members, or description...">
+        </div>
+        <div class="d-flex flex-wrap gap-2" id="projectFilters">
+            <button class="btn btn-sm btn-outline-primary mr-2 mb-2 px-3 proj-filter-btn" data-type="All">All</button>
+            <button class="btn btn-sm btn-success active mr-2 mb-2 px-3 proj-filter-btn"
+                data-type="Active">Active</button>
+            <button class="btn btn-sm btn-outline-secondary mr-2 mb-2 px-3 proj-filter-btn"
+                data-type="Past">Past</button>
+        </div>
+    </div>
+</div>
+
+<div id="projects-container" class="row">
+    <!-- Projects will be rendered here -->
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const projects = [
+            {% for p in site.data.active_projects %}
+        {
+            "title": {{ p.title | jsonify }},
+        "description": {{ p.description | jsonify }},
+        "team": {{ p.team | jsonify }},
+        "duration": {{ p.duration | jsonify }},
+        "status": "Active",
+        "icon": {{ p.icon | jsonify }},
+        "badge_color": {{ p.badge_color | jsonify }}
+        }{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+        {% if site.data.active_projects.size > 0 and site.data.past_projects.size > 0 %}, {% endif %}
+    {% for p in site.data.past_projects %}
+    {
+        "title": {{ p.title | jsonify }},
+        "description": {{ p.description | jsonify }},
+        "team": {{ p.team | jsonify }},
+        "duration": {{ p.duration | jsonify }},
+        "status": "Past",
+            "special": {{ p.special | jsonify }},
+        "university": {{ p.university | jsonify }}
+    } {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    ];
+
+    let currentFiltered = projects;
+    let selectedType = 'Active';
+
+    // Initial filter
+    // Ensure button styling is correct for initial state
+    const activeBtn = document.querySelector('.proj-filter-btn[data-type="Active"]');
+    if (activeBtn) {
+        // Reset all buttons first
+        document.querySelectorAll('.proj-filter-btn').forEach(b => {
+            b.classList.remove('active', 'btn-primary', 'btn-success', 'btn-secondary');
+            b.classList.add(`btn-outline-${b.dataset.type === 'Active' ? 'success' : (b.dataset.type === 'Past' ? 'secondary' : 'primary')}`);
+        });
+
+        // Set Active button state
+        activeBtn.classList.remove('btn-outline-success');
+        activeBtn.classList.add('active', 'btn-success');
+    }
+
+    const term = document.getElementById('projectSearch').value.toLowerCase();
+    filterAndRender(projects, selectedType, term);
+
+    setupSearch(projects);
+    setupFilters(projects);
+
+    function renderProjects(list) {
+        const container = document.getElementById('projects-container');
+        container.innerHTML = '';
+
+        if (list.length === 0) {
+            container.innerHTML = '<div class="col-12 text-center text-muted p-4">No projects found.</div>';
+            return;
+        }
+
+        list.forEach((p, index) => {
+            const isSpecial = p.special === true;
+            const bgClass = isSpecial ? 'bg-warning-light' : 'bg-white';
+            const borderClass = isSpecial ? 'border-warning' : 'border-0';
+
+            // Icon selection
+            let iconClass = p.icon || (isSpecial ? 'fa-university' : (p.status === 'Active' ? 'fa-code-branch' : 'fa-graduation-cap'));
+            let iconColor = p.badge_color ? `text-${p.badge_color}` : (isSpecial ? 'text-warning' : 'text-muted');
+
+            // Badges
+            let badges = '';
+            if (p.status === 'Active') {
+                badges += `<span class="badge badge-${p.badge_color || 'primary'} mr-2">Active</span>`;
+            } else {
+                badges += `<span class="badge badge-secondary mr-2">Past</span>`;
+            }
+            if (p.university) {
+                badges += `<span class="badge badge-info mr-2">${p.university}</span>`;
+            }
+            badges += `<span class="badge badge-light border text-muted">${p.duration}</span>`;
+
+            const card = `
+            <div class="col-12 mb-3">
+                <div class="card shadow-sm h-100 ${borderClass}" style="border-radius: 12px; background-color: ${isSpecial ? '#fffbef' : '#fff'};">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start">
+                            <div class="mr-3 mt-1">
+                                <i class="fas ${iconClass} ${iconColor} fa-2x"></i>
+                            </div>
+                            <div class="w-100">
+                                <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                    <h5 class="card-title font-weight-bold mb-1 mr-2" style="color: #1e293b;">${p.title}</h5>
+                                    <div class="mb-1">${badges}</div>
+                                </div>
+                                <p class="text-muted mb-2 text-justify" style="font-size: 0.95rem;">${p.description}</p>
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-users text-muted mr-2 small"></i>
+                                    <small class="text-secondary font-weight-bold">${p.team}</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+            container.innerHTML += card;
+        });
+    }
+
+    function setupSearch(allProjects) {
+        document.getElementById('projectSearch').addEventListener('input', function (e) {
+            const term = e.target.value.toLowerCase();
+            filterAndRender(allProjects, selectedType, term);
+        });
+    }
+
+    function setupFilters(allProjects) {
+        const btns = document.querySelectorAll('.proj-filter-btn');
+        btns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                btns.forEach(b => {
+                    b.classList.remove('active');
+                    b.classList.remove('btn-primary', 'btn-success', 'btn-secondary');
+                    b.classList.add(`btn-outline-${b.dataset.type === 'Active' ? 'success' : (b.dataset.type === 'Past' ? 'secondary' : 'primary')}`);
+                });
+
+                selectedType = btn.dataset.type;
+                btn.classList.remove('btn-outline-primary', 'btn-outline-success', 'btn-outline-secondary');
+                btn.classList.add('active');
+                if (selectedType === 'All') btn.classList.add('btn-primary');
+                else if (selectedType === 'Active') btn.classList.add('btn-success');
+                else btn.classList.add('btn-secondary');
+
+                const term = document.getElementById('projectSearch').value.toLowerCase();
+                filterAndRender(allProjects, selectedType, term);
+            });
+        });
+    }
+
+    function filterAndRender(allProjects, type, term) {
+        const filtered = allProjects.filter(p => {
+            const matchesType = (type === 'All') || (p.status === type);
+            const matchesSearch = (p.title.toLowerCase().includes(term) ||
+                p.description.toLowerCase().includes(term) ||
+                p.team.toLowerCase().includes(term));
+            return matchesType && matchesSearch;
+        });
+        renderProjects(filtered);
+    }
+});
+</script>

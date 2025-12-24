@@ -1,0 +1,181 @@
+- title: ASE
+  description: International Conference on Automated Software Engineering
+  sub: SE
+  rank:
+    ccf: A
+    core: A*
+  confs:
+    - year: 2025
+      id: ase25
+      link: https://conf.researchr.org/home/ase-2025
+      timeline:
+        - deadline: '2025-05-30 23:59:59'
+      timezone: AoE
+      date: November 16 - November 20, 2025
+      place: Seoul, South Korea
+
+- title: ICSE
+  description: International Conference on Software Engineering
+  sub: SE
+  rank:
+    ccf: A
+    core: A*
+  confs:
+    - year: 2025
+      id: icse25
+      link: https://conf.researchr.org/home/icse-2025
+      timeline:
+        - abstract_deadline: '2024-07-26 23:59:59'
+          deadline: '2024-08-02 23:59:59'
+          comment: 'Second Cycle: Submission'
+      timezone: AoE
+      date: April 26- May 04, 2025
+      place: Ottawa, Ontario, Canada
+    - year: 2026
+      id: icse26
+      link: https://conf.researchr.org/home/icse-2026
+      timeline:
+        - abstract_deadline: '2025-03-07 23:59:59'
+          deadline: '2025-03-14 23:59:59'
+          comment: 'First Cycle: Submission'
+      timezone: AoE
+      date: April 12-18, 2026
+      place: Rio De Janeiro, Brazil
+
+- title: FSE
+  description: ACM International Conference on the Foundations of Software Engineering
+  sub: SE
+  rank:
+    ccf: A
+    core: A*
+  confs:
+    - year: 2025
+      id: fse25
+      link: https://conf.researchr.org/home/fse-2025
+      timeline:
+        - abstract_deadline: '2024-09-05 23:59:59'
+          deadline: '2024-09-12 23:59:59'
+      timezone: AoE
+      date: June 23-27, 2025
+      place: Trondheim, Norway
+    - year: 2026
+      id: fse26
+      link: https://conf.researchr.org/home/fse-2026
+      timeline:
+        - abstract_deadline: '2025-09-04 23:59:59'
+          deadline: '2025-09-11 23:59:59'
+      timezone: AoE
+      date: July 6-10, 2026
+      place: Montréal, Canada
+
+- title: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  sub: SE
+  rank:
+    ccf: A
+    core: A
+  confs:
+    - year: 2025
+      id: issta25
+      link: https://conf.researchr.org/home/issta-2025
+      timeline:
+        - deadline: '2024-10-31 23:59:59'
+      timezone: AoE
+      date: July 14-18, 2025
+      place: Xue-Yuan, Taiwan (Pending)
+
+- title: MSR
+  description: Working Conference on Mining Software Repositories
+  sub: SE
+  rank:
+    ccf: C
+    core: A
+  confs:
+    - year: 2025
+      id: msr25
+      link: https://2025.msrconf.org/
+      timeline:
+        - deadline: '2024-11-09 23:59:59'
+      timezone: AoE
+      date: April 28-29, 2025
+      place: Ottawa, Ontario, Canada
+
+- title: SANER
+  description: International Conference on Software Analysis, Evolution and Reengineering
+  sub: SE
+  rank:
+    ccf: B
+    core: A
+  confs:
+    - year: 2025
+      id: saner25
+      link: https://conf.researchr.org/home/saner-2025
+      timeline:
+        - deadline: '2024-10-04 23:59:59'
+      timezone: AoE
+      date: March 4-7, 2025
+      place: Montréal, Canada
+
+- title: ICPC
+  description: International Conference on Program Comprehension
+  sub: SE
+  rank:
+    ccf: B
+    core: A
+  confs:
+    - year: 2025
+      id: icpc25
+      link: https://conf.researchr.org/home/icpc-2025
+      timeline:
+        - deadline: '2024-11-20 23:59:59'
+      timezone: AoE
+      date: April 27-28, 2025
+      place: Ottawa, Ontario, Canada
+
+- title: ICSME
+  description: International Conference on Software Maintenance and Evolution
+  sub: SE
+  rank:
+    ccf: B
+    core: A
+  confs:
+    - year: 2025
+      id: icsme25
+      link: https://conf.researchr.org/home/icsme-2025
+      timeline:
+        - deadline: '2025-04-01 23:59:59'
+      timezone: AoE
+      date: October, 2025
+      place: N/A
+
+- title: EASE
+  description: International Conference on Evaluation and Assessment in Software Engineering
+  sub: SE
+  rank:
+    ccf: C
+    core: A
+  confs:
+    - year: 2025
+      id: ease25
+      link: https://conf.researchr.org/home/ease-2025
+      timeline:
+        - deadline: '2025-01-15 23:59:59'
+      timezone: AoE
+      date: June, 2025
+      place: Oulu, Finland
+
+- title: ESEM
+  description: International Symposium on Empirical Software Engineering and Measurement
+  sub: SE
+  rank:
+    ccf: B
+    core: A
+  confs:
+    - year: 2025
+      id: esem25
+      link: https://conf.researchr.org/home/esem-2025
+      timeline:
+        - deadline: '2025-05-01 23:59:59'
+      timezone: AoE
+      date: October, 2025
+      place: N/A

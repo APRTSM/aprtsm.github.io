@@ -1,0 +1,285 @@
+# Bilkent Alumni
+- name: Emir Bosnak
+  role: Undergraduate
+  duration: 2025
+  university: "Bilkent University"
+  keywords: ["Vulnerability Generation", "LLM Security", "Adversarial Investigations"]
+  photo: user-solid.svg
+- name: Yassin Haitham H. M. Younis
+  role: Undergraduate
+  duration: 2025
+  university: "Bilkent University"
+  keywords: ["Agentic AI", "Bug Reproduction", "Prompt Engineering"]
+  photo: user-solid.svg
+- name: Deniz Aydemir
+  role: Undergraduate
+  duration: 2024-2025
+  university: "Bilkent University"
+  keywords: ["LLM for Education", "Grading Automation", "Prompt Engineering"]
+  photo: user-solid.svg
+- name: Umut Aktaş
+  role: Undergraduate
+  duration: 2024-2025
+  university: "Bilkent University"
+  keywords: ["LLM for Education", "Grading Automation", "Prompt Engineering"]
+  photo: user-solid.svg
+- name: Kerem Tekik
+  role: Undergraduate
+  duration: 2024-2025
+  university: "Bilkent University"
+  keywords: ["LLM for Education", "Grading Automation", "Prompt Engineering"]
+  photo: user-solid.svg
+- name: Sarp Yıldırım
+  role: Undergraduate
+  duration: 2024-2025
+  university: "Bilkent University"
+  keywords: ["LLM for Education", "Grading Automation", "Prompt Engineering"]
+  photo: user-solid.svg
+- name: Yavuz Selim Sarıbaş
+  role: Undergraduate
+  duration: 2024-2025
+  university: "Bilkent University"
+  keywords: ["LLM for Education", "Grading Automation", "Prompt Engineering"]
+  photo: user-solid.svg
+
+- name: Yavuz Alp Sencer Öztürk
+  role: Undergraduate
+  duration: 2024-2025
+  university: "Bilkent University"
+  keywords: ["Bug Classification", "LLM Classification", "Data Labeling"]
+  photo: user-solid.svg
+
+- name: Yavuz Selim Sarıbaş
+  role: Undergraduate
+  duration: 2023-2024
+  university: "Bilkent University"
+  keywords: ["Dockerized FL", "Fault Localization", "Environment Isolation"]
+  photo: user-solid.svg
+
+- name: Alara Zeybey
+  role: Undergraduate
+  duration: 2023-2024
+  university: "Bilkent University"
+  keywords: ["ChatGPT Analysis", "GitHub Mining", "Social Analysis"]
+  photo: user-solid.svg
+- name: Bora Haliloğlu
+  role: Undergraduate
+  duration: 2023-2024
+  university: "Bilkent University"
+  keywords: ["ChatGPT Analysis", "GitHub Mining", "Social Analysis"]
+  photo: user-solid.svg
+
+# Sabanci Alumni
+
+- name: Emirhan Böge
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["Social Indicators", "Bug Characterization", "Developer Behavior"]
+  photo: user-solid.svg
+
+- name: Omar Assouma
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["GitHub Quality", "Project Metrics", "Open Source Quality"]
+  photo: user-solid.svg
+- name: Baturalp Arslan Kabadayı
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["GitHub Quality", "Project Metrics", "Open Source Quality"]
+  photo: user-solid.svg
+- name: Beste Bayhan
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["GitHub Quality", "Project Metrics", "Open Source Quality"]
+  photo: user-solid.svg
+
+- name: Ahmet Bilal Yıldız
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["Deep Learning", "Bug Detection", "CNN for Code"]
+  photo: user-solid.svg
+- name: İsmail Berat Düzenli
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["Deep Learning", "Bug Detection", "CNN for Code"]
+  photo: user-solid.svg
+- name: Berke Bakar
+  role: Master Student
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["Deep Learning", "Bug Detection", "CNN for Code"]
+  photo: user-solid.svg
+
+- name: Özge Umut
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["Review Analysis", "Intelligent Spec"]
+  photo: user-solid.svg
+- name: Utku Selim Koçoğlu
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["Review Analysis", "Intelligent Spec"]
+  photo: user-solid.svg
+- name: Ahmet Ali Sancaktaroğlu
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["Review Analysis", "Intelligent Spec"]
+  photo: user-solid.svg
+
+- name: Kamil Atakan Çelikyürek
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["Fault Localization", "Framework"]
+  photo: user-solid.svg
+
+- name: Tahir Turgut
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["Automated Program Repair", "Security Patches"]
+  photo: user-solid.svg
+- name: Oğuz Kağan Yur
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["Automated Program Repair", "Security Patches"]
+  photo: user-solid.svg
+- name: Rekin Barışıcı
+  role: Undergraduate
+  duration: 2022-2023
+  university: "Sabanci University"
+  keywords: ["Automated Program Repair", "Security Patches"]
+  photo: user-solid.svg
+
+- name: Ifrah Saleem
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Static Analysis", "Dependencies"]
+  photo: user-solid.svg
+- name: Elif Ecem Şamlıoğlu
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Static Analysis", "Dependencies"]
+  photo: user-solid.svg
+- name: Guljahan Annagurbanova
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Static Analysis", "Dependencies"]
+  photo: user-solid.svg
+
+- name: Ayşegül Rana Erdemli
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Embeddings", "Attack Detection"]
+  photo: user-solid.svg
+- name: Dilara Tekinoğlu
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Embeddings", "Attack Detection"]
+  photo: user-solid.svg
+- name: Yunus Emre Tat
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Embeddings", "Attack Detection"]
+  photo: user-solid.svg
+
+- name: Simay İldeniz
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["NLP", "Code Change"]
+  photo: user-solid.svg
+- name: Mehmet Enes Battal
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["NLP", "Code Change"]
+  photo: user-solid.svg
+
+- name: Anes Abdennebi
+  role: Master Student
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Microservices", "Failure Prediction"]
+  photo: user-solid.svg
+
+- name: Muhammed Orhun Gale
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Interface", "Test Update"]
+  photo: user-solid.svg
+- name: Barış Kerem Kurt
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Interface", "Test Update"]
+  photo: user-solid.svg
+
+- name: Hakan Büyüktopcu
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Regression", "Test Selection"]
+  photo: user-solid.svg
+- name: Cihan Şentürk
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Regression", "Test Selection"]
+  photo: user-solid.svg
+- name: Metin Berkay Ataklı
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["Regression", "Test Selection"]
+  photo: user-solid.svg
+
+- name: Aysun Öğüt
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["COVID-19", "OSS Impact"]
+  photo: user-solid.svg
+- name: Bengisu Tepe
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["COVID-19", "OSS Impact"]
+  photo: user-solid.svg
+- name: Doruk Can Metiner
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["COVID-19", "OSS Impact"]
+  photo: user-solid.svg
+- name: Emre Genç
+  role: Undergraduate
+  duration: 2021-2022
+  university: "Sabanci University"
+  keywords: ["COVID-19", "OSS Impact"]
+  photo: user-solid.svg
+
+# Luxembourg Alumni
+- name: Ahmed Khanfir
+  role: PhD Student
+  duration: 2020-2021
+  university: "University of Luxembourg"
+  keywords: ["Fault Injection", "Testing"]
+  photo: user-solid.svg

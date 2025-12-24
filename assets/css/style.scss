@@ -1,19 +1,149 @@
----
----
+--- --- @import "portfolYOU";
 
-@import "portfolYOU";
-
-[data-theme="dark"] 
-img {
-    filter: grayscale(50%) invert(90%) brightness(95%) hue-rotate(180deg);
+[data-theme="dark"] img {
+  filter: grayscale(50%) invert(90%) brightness(95%) hue-rotate(180deg);
 }
 
 
-myfont{
-    font-family: Optima, Candara, Calibri, Arial, sans-serif;
+myfont {
+  font-family: Optima, Candara, Calibri, Arial, sans-serif;
 }
 
 fa-orbilu {
-    content: url("/img/icons/icon_dblp_bw.svg");
+  content: url("/img/icons/icon_dblp_bw.svg");
 
+}
+
+/* Custom Styles for APR-TSM */
+.card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.hover-effect {
+  /* No default hover effect unless it's a link or button */
+}
+
+a.hover-effect:hover,
+.btn.hover-effect:hover,
+.card.hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+  cursor: pointer;
+}
+
+/* Hero Section Gradient and Animation */
+.hero-animated-bg {
+  background: linear-gradient(-45deg, #f5f7fa, #c3cfe2, #e0eafc, #eef2f3);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Glassmorphism for containers on home */
+.glass-container {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+}
+
+.display-4 {
+  font-weight: 800;
+  color: #1a1a1a;
+  letter-spacing: -1px;
+}
+
+[data-theme="dark"] .display-4 {
+  color: #f8f9fa;
+}
+
+[data-theme="dark"] .hero-animated-bg {
+  background: linear-gradient(-45deg, #0f172a, #1e293b, #334155, #1e293b);
+  background-size: 400% 400%;
+}
+
+/* Button & Link Interactions */
+.btn-primary,
+.btn-outline-secondary {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+}
+
+.btn-outline-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(108, 117, 125, 0.2);
+}
+
+/* Social Icons */
+.social-icons a {
+  margin: 0 5px;
+  color: #6c757d;
+  transition: all 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+  transform: scale(1.2);
+}/* Responsive Table Styles */
+@media (max-width: 768px) {
+    .table-responsive {
+        border: 0;
+    }
+
+    #team-table thead {
+        display: none;
+    }
+
+    #team-table tr {
+        display: block;
+        margin-bottom: 1rem;
+        border: 1px solid #e9ecef;
+        border-radius: 12px;
+        padding: 1rem;
+    }
+
+    #team-table td {
+        display: block;
+        border-bottom: none;
+        padding: 0.25rem 0;
+        text-align: left;
+    }
+
+    #team-table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        color: #94a3b8;
+        width: 80px;
+    }
+
+    .team-row .d-flex.align-items-center {
+        margin-bottom: 0.5rem;
+    }
 }

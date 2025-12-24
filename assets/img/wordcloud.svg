@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+<style>@font-face{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;src:url("data:application/font-woff;charset=utf-8;base64,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")format("woff");}</style>
+<style>text{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;}</style>
+<text transform="translate(259,192)" font-size="206" style="fill:#4682B4">Bug</text>
+<text transform="translate(183,326)" font-size="177" style="fill:#008080">LLM</text>
+<text transform="translate(492,336)" font-size="127" style="fill:#D2691E">Test</text>
+<text transform="translate(10,397)" font-size="94" style="fill:#008080">Detection</text>
+<text transform="translate(390,70)" font-size="88" style="fill:#800000">Code</text>
+<text transform="translate(511,394)" font-size="68" style="fill:#2E8B57">Patches</text>
+<text transform="translate(171,308) rotate(-90)" font-size="68" style="fill:#D2691E">Quality</text>
+<text transform="translate(171,28)" font-size="36" style="fill:#D2691E">Agentic AI</text>
+<text transform="translate(598,43)" font-size="33" style="fill:#696969">Embeddings</text>
+<text transform="translate(639,247)" font-size="33" style="fill:#008080">Fix</text>
+<text transform="translate(41,145) rotate(-90)" font-size="33" style="fill:#4682B4">Static</text>
+<text transform="translate(673,172) rotate(-90)" font-size="33" style="fill:#2F4F4F">Metric</text>
+<text transform="translate(749,225) rotate(-90)" font-size="33" style="fill:#696969">Learning</text>
+<text transform="translate(102,334) rotate(-90)" font-size="33" style="fill:#2E8B57">Security</text>
+<text transform="translate(247,249) rotate(-90)" font-size="33" style="fill:#2F4F4F">Environment</text>
+<text transform="translate(302,320) rotate(-90)" font-size="33" style="fill:#4682B4">GitHub</text>
+<text transform="translate(1,26)" font-size="33" style="fill:#D2691E">Attack</text>
+<text transform="translate(67,319) rotate(-90)" font-size="33" style="fill:#800000">Softw Eng</text>
+<text transform="translate(798,266) rotate(-90)" font-size="33" style="fill:#800000">AI Artifact</text>
+<text transform="translate(570,16)" font-size="20" style="fill:#2E8B57">Artifact Evaluation</text>
+<text transform="translate(265,292) rotate(-90)" font-size="20" style="fill:#2E8B57">Evaluation Reasoning</text>
+<text transform="translate(562,261)" font-size="13" style="fill:#2E8B57">Reasoning Optimization</text>
+<text transform="translate(165,336)" font-size="13" style="fill:#4682B4">Education Grading</text>
+<text transform="translate(253,38)" font-size="13" style="fill:#800000">Grading Automation</text>
+<text transform="translate(387,340)" font-size="13" style="fill:#696969">Automation Prompt</text>
+<text transform="translate(666,211)" font-size="12" style="fill:#2F4F4F">Selection</text>
+<text transform="translate(644,214) rotate(-90)" font-size="12" style="fill:#4682B4">Review</text>
+<text transform="translate(292,90)" font-size="12" style="fill:#008080">ICSME</text>
+<text transform="translate(10,321) rotate(-90)" font-size="12" style="fill:#4682B4">Vulnerability Generation</text>
+<text transform="translate(600,53)" font-size="12" style="fill:#800000">Fault Localization</text>
+<text transform="translate(690,187) rotate(-90)" font-size="12" style="fill:#2F4F4F">Dockerization CI</text>
+<text transform="translate(87,59)" font-size="12" style="fill:#008080">CI CD</text>
+<text transform="translate(11,123) rotate(-90)" font-size="12" style="fill:#008080">CD Automation</text>
+<text transform="translate(505,240) rotate(-90)" font-size="12" style="fill:#2F4F4F">Automation Build</text>
+<text transform="translate(45,74)" font-size="12" style="fill:#696969">Build Test</text>
+<text transform="translate(28,300) rotate(-90)" font-size="12" style="fill:#008080">Optimization Agentic</text>
+<text transform="translate(54,105)" font-size="12" style="fill:#2E8B57">COVID OSS</text>
+<text transform="translate(328,277)" font-size="12" style="fill:#2E8B57">OSS Impact</text>
+<text transform="translate(704,345)" font-size="10" style="fill:#2E8B57">Methodol</text>
+<text transform="translate(590,79)" font-size="10" style="fill:#008080">Patterns</text>
+<text transform="translate(514,328) rotate(-90)" font-size="10" style="fill:#008080">Mining</text>
+<text transform="translate(294,144)" font-size="10" style="fill:#4682B4">Unit</text>
+<text transform="translate(179,234) rotate(-90)" font-size="10" style="fill:#D2691E">Investigation</text>
+<text transform="translate(586,344)" font-size="10" style="fill:#2E8B57">Adversarial</text>
+<text transform="translate(352,239)" font-size="10" style="fill:#D2691E">Testing</text>
+<text transform="translate(465,125) rotate(-90)" font-size="10" style="fill:#800000">Patch</text>
+<text transform="translate(88,384)" font-size="10" style="fill:#D2691E">Social</text>
+<text transform="translate(646,331) rotate(-90)" font-size="10" style="fill:#4682B4">Project</text>
+<text transform="translate(446,139) rotate(-90)" font-size="10" style="fill:#696969">Deep</text>
+<text transform="translate(348,214)" font-size="10" style="fill:#008080">CNN</text>
+<text transform="translate(708,167) rotate(-90)" font-size="10" style="fill:#008080">Dependencies</text>
+<text transform="translate(557,203)" font-size="10" style="fill:#D2691E">Change</text>
+<text transform="translate(681,288)" font-size="10" style="fill:#800000">Regression</text>
+<text transform="translate(163,343)" font-size="10" style="fill:#4682B4">ACM Trans</text>
+<text transform="translate(660,195)" font-size="10" style="fill:#800000">Open Source</text>
+<text transform="translate(630,227) rotate(-90)" font-size="10" style="fill:#4682B4">Intelligent Spec</text>
+<text transform="translate(191,295) rotate(-90)" font-size="8" style="fill:#2E8B57">report</text>
+<text transform="translate(121,333) rotate(-90)" font-size="8" style="fill:#D2691E">driven</text>
+<text transform="translate(347,297)" font-size="8" style="fill:#800000">Fault</text>
+<text transform="translate(723,353)" font-size="8" style="fill:#2F4F4F">Injection</text>
+</svg>

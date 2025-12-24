@@ -1,23 +1,27 @@
-- name: Dr. Anıl Koyuncu
-  website: https://anilkoyuncu.github.io
-  photo: user-solid.svg
-  info: Faculty Member (Assistant Prof.), Department of Computer Engineering, Bilkent University
-  # email: richard@university.edu
-  # github: https://github.com/
-  # researchgate: https://www.researchgate.net/
-  # scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
-  # cv: cv/cv.pdf
-  # Change the number below to the number of "educations" you have (up to 6)
-  number_educ: 0
-  # education1: "(1942) Ph.D. Physics, Princeton University"
-  # education2: "(1939) B.S. Physics, Massachusetts Institute of Technology"
-  # education3: 
-  # education4: 
-  # education5: 
-  # education6: 
-  # education1short: (1942) Ph.D. Physics, Princeton
-  # education2short: (1939) B.S. Physics, MIT
-  # education3short: 
-  # education4short: 
-  # education5short: 
-  # education6short: 
+name: Dr. Anıl Koyuncu
+website: https://anilkoyuncu.github.io
+photo: user-solid.svg
+info: Faculty Member (Assistant Prof.), Department of Computer Engineering, Bilkent University
+affiliation: Bilkent University
+bio: Dr. Anıl Koyuncu is an Assistant Professor at Bilkent University. His research focuses on Automated Program Repair, Mining Software Repositories, and Applied Machine Learning for Software Engineering.
+email: anil.koyuncu@bilkent.edu.tr
+github: anilkoyuncu
+researchgate: https://www.researchgate.net/profile/Anil-Koyuncu
+
+scholar: 6DMJ2dQAAAAJ
+orcid: 0000-0001-6975-6752
+# cv: cv/cv.pdf
+# Change the number below to the number of "educations" you have (up to 6)
+number_educ: 0
+# education1: "(1942) Ph.D. Physics, Princeton University"
+# education2: "(1939) B.S. Physics, Massachusetts Institute of Technology"
+# education3: 
+# education4: 
+# education5: 
+# education6: 
+# education1short: (1942) Ph.D. Physics, Princeton
+# education2short: (1939) B.S. Physics, MIT
+# education3short: 
+# education4short: 
+# education5short: 
+# education6short:

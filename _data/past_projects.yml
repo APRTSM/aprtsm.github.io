@@ -1,0 +1,61 @@
+- title: "LLM-Based Grading Automation"
+  description: "Used LLMs with grading rubrics to automate feedback for homework, quizzes, and exams in CS curriculum."
+  team: "Deniz Aydemir, Umut Aktaş, Kerem Tekik, Sarp Yıldırım, Yavuz Selim Sarıbaş"
+  duration: "2024-2025"
+  student_count: 5
+
+- title: "Multi-Modal Bug Report Categorization"
+  description: "Explored LLMs for bug report categorization using multi-modal capabilities and prompt engineering."
+  team: "Yavuz Alp Sencer Öztürk"
+  duration: "2024-2025"
+  student_count: 1
+
+- title: "Dockerized Fault Localization Framework"
+  description: "Developed framework simplifying bug localization by dockerizing tools and enabling benchmark comparisons."
+  team: "Yavuz Selim Sarıbaş"
+  duration: "2023-2024"
+  student_count: 1
+
+- title: "ChatGPT Usage Mining in GitHub"
+  description: "Analyzed ChatGPT usage by tracking shared links in GitHub repos to explore developer interaction patterns."
+  team: "Alara Zeybey, Bora Haliloğlu"
+  duration: "2023-2024"
+  student_count: 2
+
+- title: "Social Indicators for Bug Characterization"
+  description: "Explored social indicators (sentiment, connectivity) to characterize bugs in software projects."
+  team: "Emirhan Böge"
+  duration: "2022-2023"
+  student_count: 1
+
+- title: "CNN-Based Bug Detection from Code Images"
+  description: "Investigated deep CNNs for detecting bugs by analyzing screenshots/images of code."
+  team: "Ahmet Bilal Yıldız, İsmail Berat Düzenli, Berke Bakar (MS)"
+  duration: "2022-2023"
+  student_count: 3
+
+- title: "Program State Embeddings for Security"
+  description: "Developed state2vec embeddings to detect runtime vulnerabilities and attacks through vector-based analysis."
+  team: "Ayşegül Rana Erdemli, Dilara Tekinoğlu, Yunus Emre Tat"
+  duration: "2021-2022"
+  student_count: 3
+
+- title: "NLP for Code Change Analysis"
+  description: "Built pipeline using BERT/CodeBERT to create embeddings and cluster similar code changes for program repair."
+  team: "Simay İldeniz, Mehmet Enes Battal"
+  duration: "2021-2022"
+  student_count: 2
+
+- title: "COVID-19 Impact on OSS Development"
+  description: "Investigated how COVID-19 crisis affected open source development patterns and developer productivity on GitHub."
+  team: "Aysun Öğüt, Bengisu Tepe, Doruk Can Metiner, Emre Genç"
+  duration: "2021-2022"
+  student_count: 4
+
+- title: "Realistic Fault Injection Tool"
+  description: "Developed fault injection tool injecting realistic faults by exploring user-reported fault patterns."
+  team: "Ahmed Khanfir (University of Luxembourg)"
+  duration: "2020-2021"
+  student_count: 1
+  university: "Luxembourg"
+  special: true

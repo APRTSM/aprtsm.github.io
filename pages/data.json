@@ -4,49 +4,53 @@ permalink: /data.json
 ---
 [
     {
-        "name": "MSR Technical Papers",
-        "deadline": "2024-11-09",
-        "url": "https://2025.msrconf.org/"
-    },    {
-        "name": "MSR Mining Challenge Proposals",
-        "deadline": "2024-12-06",
-        "url": "https://2025.msrconf.org/track/msr-2025-mining-challenge"
+        "name": "ASE 2026",
+        "deadline": "2026-03-26",
+        "url": "https://conf.researchr.org/home/ase-2026"
     },
     {
-        "name": "ISSTA Technical Papers",
-        "deadline": "2024-10-31",
-        "url": "https://conf.researchr.org/home/issta-2025"
+        "name": "EASE 2026",
+        "deadline": "2026-01-23",
+        "url": "https://conf.researchr.org/home/ease-2026"
     },
     {
-        "name": "SANER Research Papers",
-        "deadline": "2024-10-04",
-        "url": "https://conf.researchr.org/home/saner-2025"
+        "name": "ESEM 2026",
+        "deadline": "TBD",
+        "url": "https://conf.researchr.org/home/eseiw-2026"
     },
     {
-        "name": "ICST Research Papers",
-        "deadline": "2024-09-25",
-        "url": "https://conf.researchr.org/home/icst-2025"
+        "name": "FSE 2026",
+        "deadline": "2025-09-11",
+        "url": "https://conf.researchr.org/home/fse-2026"
     },
     {
-        "name": "OOPSLA Research Papers (R1)",
-        "deadline": "2024-10-15",
-        "url": "https://2025.splashcon.org"
+        "name": "ICPC 2026",
+        "deadline": "2025-10-23",
+        "url": "https://conf.researchr.org/home/icpc-2026"
     },
     {
-        "name": "OOPSLA Research Papers (R2)",
-        "deadline": "2025-03-25",
-        "url": "https://2025.splashcon.org"
+        "name": "ICSE 2026",
+        "deadline": "2025-07-18",
+        "url": "https://conf.researchr.org/home/icse-2026"
     },
     {
-        "name": "ICSE NIER",
-        "deadline": "2024-10-10",
-        "url": "https://conf.researchr.org/track/icse-2025/icse-2025-nier"
+        "name": "ICSME 2026",
+        "deadline": "2026-03-06",
+        "url": "https://conf.researchr.org/home/icsme-2026"
     },
     {
-        "name": "ICSME Research Track",
-        "deadline": "2024-04-04",
-        "url": "https://conf.researchr.org/track/icsme-2024/icsme-2024-papers"
+        "name": "ISSTA 2026",
+        "deadline": "2026-01-29",
+        "url": "https://conf.researchr.org/home/issta-2026"
+    },
+    {
+        "name": "MSR 2026",
+        "deadline": "2025-10-23",
+        "url": "https://2026.msrconf.org/"
+    },
+    {
+        "name": "SANER 2026",
+        "deadline": "2025-10-16",
+        "url": "https://conf.researchr.org/home/saner-2026"
     }
-
-
 ]
