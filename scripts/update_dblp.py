@@ -33,7 +33,11 @@ def similar(a, b):
 def parse_authors(entry):
     authors = []
     for author in entry.findall('author'):
-        authors.append(author.text)
+        name = author.text
+        if name:
+            # Strip trailing digits (e.g., "David Lo 0001" -> "David Lo")
+            name = re.sub(r'\s*\d+$', '', name)
+        authors.append(name)
     return ", ".join(authors)
 
 def update_papers(xml_root):

@@ -1,7 +1,7 @@
 - title: 'Rethinking Cognitive Complexity for Unit Tests: Toward a Readability-Aware
     Metric Grounded in Developer Perception.'
-  authors: Wendkûuni C. Ouédraogo, Yinghua Li, Xueqi Dang, Xin Zhou 0014, Anil Koyuncu,
-    Jacques Klein, David Lo 0001, Tegawendé F. Bissyandé
+  authors: Wendkûuni C. Ouédraogo, Yinghua Li, Xueqi Dang, Xin Zhou, Anil Koyuncu,
+    Jacques Klein, David Lo, Tegawendé F. Bissyandé
   revenue: ICSME 2025
   alias: ICSME
   link: https://doi.org/10.1109/ICSME64153.2025.00082
@@ -33,14 +33,14 @@
   key: conf/kbse/PehlivanEYLK25
 - title: 'LLMs and Prompting for Unit Test Generation: A Large-Scale Evaluation.'
   authors: Wendkûuni C. Ouédraogo, Abdoul Kader Kaboré, Haoye Tian, Yewei Song, Anil
-    Koyuncu, Jacques Klein, David Lo 0001, Tegawendé F. Bissyandé
+    Koyuncu, Jacques Klein, David Lo, Tegawendé F. Bissyandé
   revenue: ASE 2024
   alias: ASE
   link: https://doi.org/10.1145/3691620.3695330
   doi: https://doi.org/10.1145/3691620.3695330
   key: conf/kbse/OuedraogoKTSKK024
 - title: LSTM-AE for Anomaly Detection on Multivariate Telemetry Data.
-  authors: Anes Abdennebi, Alp Tuncay, Cemal Yilmaz 0001, Anil Koyuncu, Oktay Gungor
+  authors: Anes Abdennebi, Alp Tuncay, Cemal Yilmaz, Anil Koyuncu, Oktay Gungor
   revenue: SERA 2023
   alias: SERA
   link: https://doi.org/10.1109/SERA57763.2023.10197673
@@ -48,8 +48,8 @@
   key: conf/sera/AbdennebiTYKG23
 - title: 'On the efficiency of test suite based program repair: A Systematic Assessment
     of 16 Automated Repair Systems for Java Programs.'
-  authors: Kui Liu 0001, Shangwen Wang, Anil Koyuncu, Kisub Kim, Tegawendé F. Bissyandé,
-    Dongsun Kim 0001, Peng Wu, Jacques Klein, Xiaoguang Mao, Yves Le Traon
+  authors: Kui Liu, Shangwen Wang, Anil Koyuncu, Kisub Kim, Tegawendé F. Bissyandé,
+    Dongsun Kim, Peng Wu, Jacques Klein, Xiaoguang Mao, Yves Le Traon
   revenue: ICSE 2020
   alias: ICSE
   doi: https://doi.org/10.1145/3377811.3380338
@@ -60,8 +60,8 @@
   rate: 20.9% (129/617).
 - title: Evaluating Representation Learning of Code Changes for Predicting Patch Correctness
     in Program Repair.
-  authors: Haoye Tian, Kui Liu 0001, Abdoul Kader Kaboré, Anil Koyuncu, Li Li 0029,
-    Jacques Klein, Tegawendé F. Bissyandé
+  authors: Haoye Tian, Kui Liu, Abdoul Kader Kaboré, Anil Koyuncu, Li Li, Jacques
+    Klein, Tegawendé F. Bissyandé
   revenue: ASE 2020
   alias: ASE
   doi: https://doi.org/10.1145/3338906.3338935
@@ -71,8 +71,8 @@
   key: conf/kbse/TianLKKLKB20
   rate: 22.5% (93/414).
 - title: Learning to spot and refactor inconsistent method names.
-  authors: Kui Liu 0001, Dongsun Kim 0001, Tegawendé F. Bissyandé, Tae-young Kim,
-    Kisub Kim, Anil Koyuncu, Suntae Kim, Yves Le Traon
+  authors: Kui Liu, Dongsun Kim, Tegawendé F. Bissyandé, Tae-young Kim, Kisub Kim,
+    Anil Koyuncu, Suntae Kim, Yves Le Traon
   revenue: ICSE 2019
   alias: ICSE
   doi: https://doi.org/10.1109/ICSE.2019.00019
@@ -83,8 +83,8 @@
   rate: 20.6% (109/529).
 - title: You Cannot Fix What You Cannot Find! An Investigation of Fault Localization
     Bias in Benchmarking Automated Program Repair Systems.
-  authors: Kui Liu 0001, Anil Koyuncu, Tegawendé F. Bissyandé, Dongsun Kim 0001, Jacques
-    Klein, Yves Le Traon
+  authors: Kui Liu, Anil Koyuncu, Tegawendé F. Bissyandé, Dongsun Kim, Jacques Klein,
+    Yves Le Traon
   revenue: ICST 2019
   alias: ICST
   doi: https://doi.org/10.1109/ICST.2019.00020
@@ -94,7 +94,7 @@
   key: conf/icst/LiuKB0KT19
   rate: 28.1% (31/110).
 - title: 'TBar: revisiting template-based automated program repair.'
-  authors: Kui Liu 0001, Anil Koyuncu, Dongsun Kim 0001, Tegawendé F. Bissyandé
+  authors: Kui Liu, Anil Koyuncu, Dongsun Kim, Tegawendé F. Bissyandé
   revenue: ISSTA 2019
   alias: ISSTA
   doi: https://doi.org/10.1145/3293882.3330577
@@ -104,8 +104,8 @@
   key: conf/issta/LiuK0B19
   rate: 22.5% (32/142).
 - title: 'iFixR: bug report driven program repair.'
-  authors: Anil Koyuncu, Kui Liu 0001, Tegawendé F. Bissyandé, Dongsun Kim 0001, Martin
-    Monperrus, Jacques Klein, Yves Le Traon
+  authors: Anil Koyuncu, Kui Liu, Tegawendé F. Bissyandé, Dongsun Kim, Martin Monperrus,
+    Jacques Klein, Yves Le Traon
   revenue: ESEC/SIGSOFT FSE 2019
   alias: ESEC/SIGSOFT FSE
   doi: https://doi.org/10.1145/3338906.3338935
@@ -115,7 +115,7 @@
   key: conf/sigsoft/KoyuncuLB0MKT19
   rate: 24.4% (74/303).
 - title: 'AVATAR: Fixing Semantic Bugs with Fix Patterns of Static Analysis Violations.'
-  authors: Kui Liu 0001, Anil Koyuncu, Dongsun Kim 0001, Tegawendé F. Bissyandé
+  authors: Kui Liu, Anil Koyuncu, Dongsun Kim, Tegawendé F. Bissyandé
   revenue: SANER 2019
   alias: SANER
   doi: https://doi.org/10.1109/SANER.2019.8667970
@@ -125,7 +125,7 @@
   key: conf/wcre/LiuK0B19
   rate: 30.4% (45/148).
 - title: 'LSRepair: Live Search of Fix Ingredients for Automated Program Repair.'
-  authors: Kui Liu 0001, Anil Koyuncu, Kisub Kim, Dongsun Kim 0001, Tegawendé F. Bissyandé
+  authors: Kui Liu, Anil Koyuncu, Kisub Kim, Dongsun Kim, Tegawendé F. Bissyandé
   revenue: APSEC 2018
   alias: APSEC
   doi: https://doi.org/10.1109/APSEC.2018.00085
@@ -136,8 +136,8 @@
   rate: 38.9% (14/36).
   award: Best ERA Paper Award Winner.
 - title: A Closer Look at Real-World Patches.
-  authors: Kui Liu 0001, Dongsun Kim 0001, Anil Koyuncu, Li Li 0029, Tegawendé F.
-    Bissyandé, Yves Le Traon
+  authors: Kui Liu, Dongsun Kim, Anil Koyuncu, Li Li, Tegawendé F. Bissyandé, Yves
+    Le Traon
   revenue: ICSME 2018
   alias: ICSME
   doi: https://doi.org/10.1109/ICSME.2018.00037
@@ -147,8 +147,8 @@
   key: conf/icsm/Liu0K0BT18
   rate: 21.3% (37/174).
 - title: Impact of tool support in patch construction.
-  authors: Anil Koyuncu, Tegawendé F. Bissyandé, Dongsun Kim 0001, Jacques Klein,
-    Martin Monperrus, Yves Le Traon
+  authors: Anil Koyuncu, Tegawendé F. Bissyandé, Dongsun Kim, Jacques Klein, Martin
+    Monperrus, Yves Le Traon
   revenue: ISSTA 2017
   alias: ISSTA
   doi: https://doi.org/10.1145/3092703.3092713
