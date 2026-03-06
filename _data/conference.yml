@@ -22,6 +22,15 @@
   link: https://doi.org/10.1109/ICSME64153.2025.00087
   doi: https://doi.org/10.1109/ICSME64153.2025.00087
   key: conf/icsm/KaynakLMK25
+- title: Are We SOLID Yet? An Empirical Study on Prompting LLMs to Detect Design Principle
+    Violations.
+  authors: Fatih Pehlivan, Arçin Ülkü Ergüzen, Sahand Moslemi Yengejeh, Mayasah Lami,
+    Anil Koyuncu
+  revenue: ASE 2025
+  alias: ASE
+  link: https://doi.org/10.1109/ASE63991.2025.00350
+  doi: https://doi.org/10.1109/ASE63991.2025.00350
+  key: conf/kbse/PehlivanEYLK25
 - title: 'LLMs and Prompting for Unit Test Generation: A Large-Scale Evaluation.'
   authors: Wendkûuni C. Ouédraogo, Abdoul Kader Kaboré, Haoye Tian, Yewei Song, Anil
     Koyuncu, Jacques Klein, David Lo 0001, Tegawendé F. Bissyandé
