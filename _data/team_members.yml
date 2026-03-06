@@ -5,9 +5,6 @@
   duration: 2025-Present
   university: "Bilkent University"
   keywords: ["Repo Embeddings", "Semantic Code Search", "Software Repositories"]
-  github: hesam-m
-  scholar: v9_S_IAAAAAJ
-  linkedin: hesam-matinpouya
   photo: user-solid.svg
   
 - name: Christian Ouedraogo
@@ -15,10 +12,9 @@
   duration: 2024-Present
   university: "University of Luxembourg"
   keywords: ["Unit Test Generation", "Cognitive Complexity", "Readability Metrics"]
-  github: wendkuuni
-  scholar: 6DMJ2dQAAAAJ
-  linkedin: wendkuuni-ouedraogo
   photo: user-solid.svg
+
+  
 
 - name: Ali Cevat Erçal
   role: Master Student
@@ -32,8 +28,6 @@
   duration: 2024-Present
   university: "Bilkent University"
   keywords: ["Snapshot Testing", "Vulnerability Generation", "Fault Localization"]
-  github: mayasahlami
-  scholar: 6DMJ2dQAAAAJ
   photo: user-solid.svg
 
 - name: Sahand Moslemi
@@ -43,12 +37,7 @@
   keywords: ["Patch Verification", "Vulnerability Generation", "Adversarial Attacks"]
   photo: user-solid.svg
 
-- name: Alp Seçkin Kargı
-  role: Undergraduate
-  duration: 2025-Present
-  university: "Bilkent University"
-  keywords: ["Supply Chain Security", "Vulnerability Detection"]
-  photo: user-solid.svg
+
 
 # Group: Enviroments for GitHub Projects
 - name: Emir Tomrukçu

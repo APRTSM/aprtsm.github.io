@@ -50,6 +50,17 @@
         "status": "Past",
             "special": {{ p.special | jsonify }},
         "university": {{ p.university | jsonify }}
+    } {% if forloop.last == false or site.projects.size > 0 %}, {% endif %}
+    {% endfor %}
+    {% for p in site.projects %}
+    {
+        "title": {{ p.name | jsonify }},
+        "description": {{ p.description | jsonify }},
+        "team": "Completed Project",
+            "duration": "Past",
+                "status": "Past",
+                    "tags": {{ p.tags | jsonify }},
+        "url": {{ p.url | relative_url | jsonify }}
     } {% unless forloop.last %}, {% endunless %}
     {% endfor %}
     ];
@@ -108,28 +119,42 @@
             }
             badges += `<span class="badge badge-light border text-muted">${p.duration}</span>`;
 
-            const card = `
-            <div class="col-12 mb-3">
-                <div class="card shadow-sm h-100 ${borderClass}" style="border-radius: 12px; background-color: ${isSpecial ? '#fffbef' : '#fff'};">
-                    <div class="card-body">
-                        <div class="d-flex align-items-start">
-                            <div class="mr-3 mt-1">
-                                <i class="fas ${iconClass} ${iconColor} fa-2x"></i>
+            // Tags (for markdown projects)
+            let tagBadges = '';
+            if (p.tags && p.tags.length > 0) {
+                tagBadges = `<div class="mt-2 text-left">` +
+                    p.tags.map(tag => `<span class="badge badge-pill text-primary border border-primary mr-1" style="font-weight: 500; font-size: 0.7rem;">${tag}</span>`).join('') +
+                    `</div>`;
+            }
+
+            const cardContent = `
+                <div class="card-body">
+                    <div class="d-flex align-items-start">
+                        <div class="mr-3 mt-1">
+                            <i class="fas ${iconClass} ${iconColor} fa-2x"></i>
+                        </div>
+                        <div class="w-100 text-left">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <h5 class="card-title font-weight-bold mb-1 mr-2" style="color: #1e293b;">${p.title}</h5>
+                                <div class="mb-1">${badges}</div>
                             </div>
-                            <div class="w-100">
-                                <div class="d-flex justify-content-between align-items-start flex-wrap">
-                                    <h5 class="card-title font-weight-bold mb-1 mr-2" style="color: #1e293b;">${p.title}</h5>
-                                    <div class="mb-1">${badges}</div>
-                                </div>
-                                <p class="text-muted mb-2 text-justify" style="font-size: 0.95rem;">${p.description}</p>
-                                <div class="d-flex align-items-center">
-                                    <i class="fas fa-users text-muted mr-2 small"></i>
-                                    <small class="text-secondary font-weight-bold">${p.team}</small>
-                                </div>
+                            <p class="text-muted mb-2 text-justify" style="font-size: 0.95rem;">${p.description}</p>
+                            <div class="d-flex align-items-center mb-1">
+                                <i class="fas fa-users text-muted mr-2 small"></i>
+                                <small class="text-secondary font-weight-bold">${p.team}</small>
                             </div>
+                            ${tagBadges}
                         </div>
                     </div>
+                </div>`;
+
+            const card = `
+            <div class="col-12 mb-3">
+                ${p.url ? `<a href="${p.url}" class="text-decoration-none project-link">` : ''}
+                <div class="card shadow-sm h-100 ${borderClass} hover-shadow transition-all" style="border-radius: 12px; background-color: ${isSpecial ? '#fffbef' : '#fff'}; border: 1px solid rgba(0,0,0,0.05) !important;">
+                    ${cardContent}
                 </div>
+                ${p.url ? `</a>` : ''}
             </div>`;
             container.innerHTML += card;
         });
@@ -170,7 +195,8 @@
             const matchesType = (type === 'All') || (p.status === type);
             const matchesSearch = (p.title.toLowerCase().includes(term) ||
                 p.description.toLowerCase().includes(term) ||
-                p.team.toLowerCase().includes(term));
+                p.team.toLowerCase().includes(term) ||
+                (p.tags && p.tags.some(t => t.toLowerCase().includes(term))));
             return matchesType && matchesSearch;
         });
         renderProjects(filtered);

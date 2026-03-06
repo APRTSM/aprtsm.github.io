@@ -109,12 +109,7 @@
   university: "Sabanci University"
   keywords: ["Deep Learning", "Bug Detection", "CNN for Code"]
   photo: user-solid.svg
-- name: Berke Bakar
-  role: Master Student
-  duration: 2022-2023
-  university: "Sabanci University"
-  keywords: ["Deep Learning", "Bug Detection", "CNN for Code"]
-  photo: user-solid.svg
+
 
 - name: Özge Umut
   role: Undergraduate
@@ -212,13 +207,6 @@
   keywords: ["NLP", "Code Change"]
   photo: user-solid.svg
 
-- name: Anes Abdennebi
-  role: Master Student
-  duration: 2021-2022
-  university: "Sabanci University"
-  keywords: ["Microservices", "Failure Prediction"]
-  photo: user-solid.svg
-
 - name: Muhammed Orhun Gale
   role: Undergraduate
   duration: 2021-2022
@@ -276,10 +264,4 @@
   keywords: ["COVID-19", "OSS Impact"]
   photo: user-solid.svg
 
-# Luxembourg Alumni
-- name: Ahmed Khanfir
-  role: PhD Student
-  duration: 2020-2021
-  university: "University of Luxembourg"
-  keywords: ["Fault Injection", "Testing"]
-  photo: user-solid.svg
+

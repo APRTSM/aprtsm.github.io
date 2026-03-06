@@ -99,8 +99,7 @@ project_tags: [bug reports, bug localization, fault localization, bug characteri
 
  
 ##### Research Projects:
-{% include projects/pj-search.html %}
-{% include projects/index.html %}
+{% include projects_filtered.html %}
 
 
 
