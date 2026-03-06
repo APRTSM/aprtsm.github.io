@@ -76,7 +76,7 @@ permalink: /team/
         </h5>
     </div>
 
-    <div id="teamCollapse" class="collapse show" aria-labelledby="teamHeading">
+    <div id="teamCollapse" class="collapse" aria-labelledby="teamHeading">
         <div class="card-body text-center">
              <div class="d-inline-flex flex-wrap justify-content-center p-1 bg-light rounded-pill mb-4 shadow-sm border" id="team-filter">
                 <button class="btn btn-sm active px-4 rounded-pill border-0" data-filter="all">All</button>
@@ -138,7 +138,7 @@ permalink: /team/
 </div>
 
 <!-- Lab Statistics Section -->
-<div class="row mb-4 text-center">
+<!-- <div class="row mb-4 text-center">
   <div class="col-md-3 col-sm-6 mb-3">
     <div class="stat-card p-3">
       <div class="stat-icon mb-2">
@@ -175,7 +175,7 @@ permalink: /team/
       <p class="stat-label text-muted mb-0">Completed Projects</p>
     </div>
   </div>
-</div>
+</div> -->
 
 <style>
   .stat-card {

@@ -85,6 +85,13 @@ document.addEventListener('DOMContentLoaded', function() {
         {% endfor %}
     ];
 
+    // Sort by year descending by default
+    papers.sort((a, b) => {
+        const yearA = parseInt(a.year) || 0;
+        const yearB = parseInt(b.year) || 0;
+        return yearB - yearA;
+    });
+
     // Initial render
     let currentFiltered = papers;
     let selectedType = 'All';
