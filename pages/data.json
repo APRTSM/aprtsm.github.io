@@ -15,7 +15,7 @@ permalink: /data.json
     },
     {
         "name": "ESEM 2026",
-        "deadline": "TBD",
+        "deadline": "2026-05-18",
         "url": "https://conf.researchr.org/home/eseiw-2026"
     },
     {
@@ -49,8 +49,8 @@ permalink: /data.json
         "url": "https://2026.msrconf.org/"
     },
     {
-        "name": "SANER 2026",
-        "deadline": "2025-10-16",
-        "url": "https://conf.researchr.org/home/saner-2026"
+        "name": "SANER 2027",
+        "deadline": "TBD",
+        "url": "https://conf.researchr.org/home/saner-2027"
     }
 ]

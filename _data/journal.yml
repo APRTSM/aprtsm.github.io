@@ -1,3 +1,20 @@
+- title: 'Prompt engineering in LLMs for automated unit test generation: A large-scale
+    study.'
+  authors: Wendkûuni C. Ouédraogo, Abdoul Kader Kaboré, Yinghua Li, Haoye Tian, Anil
+    Koyuncu, Jacques Klein, David Lo, Tegawendé F. Bissyandé
+  revenue: Empir. Softw. Eng. (2026)
+  alias: Empir. Softw. Eng.
+  link: https://doi.org/10.1007/s10664-026-10840-4
+  doi: https://doi.org/10.1007/s10664-026-10840-4
+  key: journals/ese/OuedraogoKLTKKLB26
+- title: 'Exploring Fine-Grained Bug Report Categorization with Large Language Models
+    and Prompt Engineering: An Empirical Study.'
+  authors: Anil Koyuncu
+  revenue: ACM Trans. Softw. Eng. Methodol. (2026)
+  alias: ACM Trans. Softw. Eng. Methodol.
+  link: https://doi.org/10.1145/3736408
+  doi: https://doi.org/10.1145/3736408
+  key: journals/tosem/Koyuncu26
 - title: 'iBiR: Bug-report-driven Fault Injection.'
   authors: Ahmed Khanfir, Anil Koyuncu, Mike Papadakis, Maxime Cordy, Tegawendé F.
     Bissyandé, Jacques Klein, Yves Le Traon
