@@ -19,9 +19,9 @@ permalink: /data.json
         "url": "https://conf.researchr.org/home/eseiw-2026"
     },
     {
-        "name": "FSE 2026",
-        "deadline": "2025-09-11",
-        "url": "https://conf.researchr.org/home/fse-2026"
+        "name": "FSE 2027",
+        "deadline": "2026-10-02",
+        "url": "https://conf.researchr.org/home/fse-2027"
     },
     {
         "name": "ICPC 2026",
@@ -50,7 +50,7 @@ permalink: /data.json
     },
     {
         "name": "SANER 2027",
-        "deadline": "TBD",
+        "deadline": "2026-09-25",
         "url": "https://conf.researchr.org/home/saner-2027"
     }
 ]
