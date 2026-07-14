@@ -7,15 +7,14 @@
   keywords: ["Repo Embeddings", "Semantic Code Search", "Software Repositories"]
   photo: user-solid.svg
   
-- name: Christian Ouedraogo
-  role: PhD Student
-  duration: 2024-Present
-  university: "University of Luxembourg"
-  keywords: ["Unit Test Generation", "Cognitive Complexity", "Readability Metrics"]
+- name: Sahand Moslemi
+  role: Master Student
+  duration: 2026-Present
+  university: "Bilkent University"
+  keywords: ["Patch Verification", "Vulnerability Generation", "Adversarial Attacks"]
   photo: user-solid.svg
 
   
-
 - name: Ali Cevat Erçal
   role: Master Student
   duration: 2025-Present
@@ -30,69 +29,21 @@
   keywords: ["Snapshot Testing", "Vulnerability Generation", "Fault Localization"]
   photo: user-solid.svg
 
-- name: Sahand Moslemi
+- name: Lanaya Carbonell
   role: Master Student
-  duration: 2024-Present
+  duration: 2026-Present
+  university: "Bilkent University"
+  keywords: ["Patch Verification", "Vulnerability Generation", "Adversarial Attacks"]
+  photo: user-solid.svg
+
+
+- name: İlayda Sancak
+  role: Master Student
+  duration: 2026-Present
   university: "Bilkent University"
   keywords: ["Patch Verification", "Vulnerability Generation", "Adversarial Attacks"]
   photo: user-solid.svg
 
 
 
-# Group: Enviroments for GitHub Projects
-- name: Emir Tomrukçu
-  role: Undergraduate
-  duration: 2025-Present
-  university: "Bilkent University"
-  keywords: ["Dockerization", "CI/CD Automation", "Build-Test Environments"]
-  photo: user-solid.svg
-- name: Akif Şahin
-  role: Undergraduate
-  duration: 2025-Present
-  university: "Bilkent University"
-  keywords: ["Dockerization", "CI/CD Automation", "Build-Test Environments"]
-  photo: user-solid.svg
-- name: Kuzey Ardıç
-  role: Undergraduate
-  duration: 2025-Present
-  university: "Bilkent University"
-  keywords: ["Dockerization", "CI/CD Automation", "Build-Test Environments"]
-  photo: user-solid.svg
-- name: Elif Ece Can
-  role: Undergraduate
-  duration: 2025-Present
-  university: "Bilkent University"
-  keywords: ["Dockerization", "CI/CD Automation", "Build-Test Environments"]
-  photo: user-solid.svg
 
-# Group: Reasoning Agents
-- name: Amir Hossein Ahani
-  role: Undergraduate
-  duration: 2025-Present
-  university: "Bilkent University"
-  keywords: ["Agentic AI", "Artifact Evaluation", "Reasoning Optimization"]
-  photo: user-solid.svg
-- name: Hakan Karakoç
-  role: Undergraduate
-  duration: 2025-Present
-  university: "Bilkent University"
-  keywords: ["Agentic AI", "Artifact Evaluation", "Reasoning Optimization"]
-  photo: user-solid.svg
-- name: Türker Köken
-  role: Undergraduate
-  duration: 2025-Present
-  university: "Bilkent University"
-  keywords: ["Agentic AI", "Artifact Evaluation", "Reasoning Optimization"]
-  photo: user-solid.svg
-- name: Ahmed Haikal
-  role: Undergraduate
-  duration: 2025-Present
-  university: "Bilkent University"
-  keywords: ["Agentic AI", "Artifact Evaluation", "Reasoning Optimization"]
-  photo: user-solid.svg
-- name: Hakan Yavuz
-  role: Undergraduate
-  duration: 2025-Present
-  university: "Bilkent University"
-  keywords: ["Agentic AI", "Artifact Evaluation", "Reasoning Optimization"]
-  photo: user-solid.svg

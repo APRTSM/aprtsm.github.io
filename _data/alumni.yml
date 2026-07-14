@@ -1,4 +1,11 @@
 # Bilkent Alumni
+- name: Alp Seçkin Kargı
+  role: Undergraduate
+  duration: 2025-Present
+  university: "Bilkent University"
+  keywords: ["Supply Chain Security", "Vulnerability Detection"]
+  photo: user-solid.svg
+  
 - name: Emir Bosnak
   role: Undergraduate
   duration: 2025
