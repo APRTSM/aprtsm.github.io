@@ -1,3 +1,10 @@
+- title: 'Fixpad++: Automated Bug Fix Verification using LLM Agents.'
+  authors: Mustafa Özkan Ir, Mehmet Dedeler, Anil Koyuncu, Eray Tüzün
+  revenue: AIware 2026
+  alias: AIware
+  link: https://doi.org/10.1145/3805760.3814915
+  doi: https://doi.org/10.1145/3805760.3814915
+  key: conf/aiware/IrDKT26
 - title: 'Rethinking Cognitive Complexity for Unit Tests: Toward a Readability-Aware
     Metric Grounded in Developer Perception.'
   authors: Wendkûuni C. Ouédraogo, Yinghua Li, Xueqi Dang, Xin Zhou, Anil Koyuncu,
